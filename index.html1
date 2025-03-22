@@ -1,0 +1,1752 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="google-site-verification" content="JETB7An90JBENC8RxRrJPdG6tFmdPovAWrIV_81GtYQ" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shelar Realty: Premium Villas & Bungalows Surrounded by Nature</title>
+    <meta name="description"
+        content="Step into luxury with Shelar Realty’s gated community. With an experience of 10+ projects in Undri, Handewadi, Wanowrie and Wadki. We bring you 16 Hill Winds Phase- 3 which is situated between the mountain ranges near a lake and within the city limits.">
+    <meta name="keywords" content="Discover villas and bungalows surrounded by lush greenery, privacy, and
+        security in Undri and more.">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl.theme.default.css">
+    <link rel="stylesheet" href="style/magnific-popup.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+
+    <style>
+        .popup-section .modal-dialog.modal-dialog-centered {
+            max-width: 500px !important;
+        }
+
+        #exampleLightbox1 .ratio-16x9 {
+            --bs-aspect-ratio: calc(9 / 8* 100%);
+        }
+
+        @media (max-width: 767px) {
+            #exampleLightbox1 .ratio-16x9 {
+                --bs-aspect-ratio: calc(20 / 16* 100%);
+            }
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <div class="container d-justify-content-space-between d-lg-justify-content-center p-md-0">
+
+                <!-- <div class="banner-call-section">
+                            <a class="navbar-call-btn" href="tel:+917796081000">
+                                <img class="" src="images/icons/call.png" alt="">
+                                +91-7796081000
+                              </a>
+                        </div> -->
+                <a class="navbar-brand" href="#">
+                    <img class="project-logo logo-light" src="images/logo.png" alt="">
+                    <img class="project-logo logo-dark" src="images/builder-logo.png" alt="">
+                </a>
+                <div class="menu-section">
+
+                    <!-- <div class="banner-call-section rera-number">
+                        <p class="rera-p d-view">RERA NO.: coming soon </p>
+                    </div> -->
+                    <div class="mobile-trigger">
+                        <span class="mobile-trigger-in">
+                            <img src="images/icons/menu.png" class="openmenu" alt="">
+
+                        </span>
+                        <!-- <p class="rera-p mobile_rera">RERA NO.: coming soon </p> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu_section">
+                <img src="images/icons/close.png" class="closemenu" alt="">
+                <div class="menu_in">
+                    <div class="menu_logo">
+                        <img src="images/logo.png">
+                    </div>
+                    <ul class="asidebar">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#overview">Overview</a></li>
+                        <li><a href="#highlights">Our Highlights</a></li>
+                        <li><a href="#location-advantages">Location Advantages</a></li>
+                        <li><a href="#price">Our Price List</a></li>
+                        <li><a href="#master-and-floor-plan">Master & Floor Plan</a></li>
+                        <!-- <li><a href="#floor-plan">Floor Plan</a></li> -->
+                        <!-- <li><a href="#highlights">Highlights </a></li> -->
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#about-builder">About Builder</a></li>
+                        <!-- <li><a href="#about-builder">Contact Us</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+   <div class="banner-section">
+        <div class="container-fluid banner-container">
+            <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2500">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/banner/banner-1.jpeg" class=" w-100 banner-img d-view" alt="site banner">
+                        <img src="images/banner/banner-1-sm.webp" class="w-100 banner-mobile m-view" alt="site banner">
+                        <!-- <p class="rera-p-mobile">RERA NO.: coming soon </p> -->
+                        <!-- <h3 class="m-view mobile_typo">16 Hill Winds - Phase 3</h3> -->
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/banner/banner-2.jpeg" class=" w-100 banner-img d-view" alt="site banner">
+                        <img src="images/banner/banner-1-sm.webp" class="w-100 banner-mobile m-view" alt="site banner">
+                        <!-- <p class="rera-p-mobile">RERA NO.: coming soon </p> -->
+                        <!-- <h3 class="m-view mobile_typo">16 Hill Winds - Phase 3</h3> -->
+                    </div>
+                  
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+            </div>
+
+            <div class="container banner-content">
+                <div class="banner-typology text-center">
+                    <!-- <div class="project_logo  ">
+                        <img src="images/logo.png" class="img-fluid">
+                    </div> -->
+                    <p class=" ">At Survey Number 16, Wadachi Wadi, Undri, Pune</p>
+                    <h3>16 Hill Winds - Phase 3</h3>
+                    <h2>Limited Edition Plots</h2>
+
+                </div>
+                <!-- <div class="banner-pricing">
+                    <p class="payment-plan">LUXURY CLUBHOUSE</p>
+                    <p class="starting-price"><span>PLOTS STARTING PRICE ₹ 73 LACS*</span> <span>VILLA STARTING PRICE ₹
+                            1.37 Cr*</span></p>
+                    <p class="status">NEW LAUNCH</p>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="side-call-btn">
+        <a href="tel:+917796081000"><img src="images/icons/phone-call.png" alt=""></a>
+        <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="images/icons/mail.png" alt=""></a>
+        <a href="https://api.whatsapp.com/send?phone=+917796081000 &amp;text=Hello, Looking for 16 Hill Winds - Phase 3, Survey Number 16, Wadachi Wadi, Undri, Pune. Get in touch with me my name is"
+            target="_blank"><img src="images/icons/whatsapp.png" alt="whatsapp"></a>
+    </div>
+
+    <div class="about_us_1" id="overview">
+        <div class="container">
+            <div class="heading-section">
+                <h3 class="title-head text-uppercase">About Project</h3>
+                <h5 class="title-subhead"> Where Hills Whisper, Luxury Beckons, and Your Bungalow Awaits!</h5>
+                <!-- <h5 class="title-subhead"> <span>₹</span>20 Lacs per guntha (all inclusive)</h5>
+                <h5 class="title-subhead"> <span>₹</span>18 Lacs per guntha for first 10 bookings</h5> -->
+                <p class="title-pera">Surrounded by beautiful hills and peaceful nature, 16 Hill Winds – Phase 3 offers
+                    a rare blend of serenity and city convenience. With a legacy of excellence across Undri, Handewadi,
+                    Wanowrie, and Wadki, we introduce a thoughtfully planned gated enclave designed for those who seek
+                    space, comfort, and a touch of luxury.This exclusive community is reserved for customizable villas
+                    and bungalows, giving
+                    you the freedom to shape your dream home just the way you imagine it. From private boundary walls
+                    and 21-ft wide concrete roads to street lighting, CCTV security, a well-planned drainage system, and
+                    lush green landscaping, every detail is built to offer a lifestyle that’s peaceful, secure, and
+                    truly enhanced.</p>
+            </div>
+            <ul class="overview_points_list d-flex justify-content-center">
+                <!-- <li>
+                    <span class="title"><small class="symbol">₹</small> 20 Lacs per guntha</span>
+                    <span class="title"> 20 Lacs per guntha</span>
+                    <p class="desc">(all inclusive)</p>
+                </li> -->
+                <!-- <li>
+                    <span class="title"> 18 Lacs per guntha</span>
+                    <p class="desc">for first 10 bookings</p>
+                </li>
+                <li>
+                    <span class="title">50% advance and </span>
+                    <p class="desc">remaining 50% EMI</p>
+                </li> -->
+                <li>
+                    <span class="title">Price : </span>
+                    <p class="desc">20 Lacs per guntha (all-inclusive)</p>
+                </li>
+                <li>
+                    <span class="title">Payment Plan : </span>
+                    <p class="desc">50% advance & remaining 50% EMI</p>
+                </li>
+                <li>
+                    <span class="title">size : </span>
+                    <p class="desc">1800 - 5000 Sq.Ft.</p>
+                </li>
+            </ul>
+            <div class="overview-query-btn d-flex justify-content-center text-uppercase animated_download_btn">
+                <a href="#" class="d-flex align-items-center btn_tag" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">download brochure
+                    <div class="icon">
+                        <svg class="download" xmlns="http://www.w3.org/2000/svg" width="25%" height="25%"
+                            viewBox="0 0 14 17">
+                            <path class="arrow" fill="#fff" fill-rule="evenodd" d="M14 6h-4V0H4v6H0l7 7 7-7z" />
+                            <path class="line" fill="#fff" fill-rule="evenodd" d="M0 15v2h14v-2H0z" />
+                        </svg>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="about-us p-80" id="overview">
+        <div class="container">
+            <div class="heading-section">
+                <h3 class="title-head">PROJECT OVERVIEW</h3>
+                <h5 class="title-subhead">Inspired by Ambition, Built on Trust – We’re More Than Just Structures</h5>
+            </div>
+            <div class="over-back-img">
+                <div class="row pt-50">
+                    <div class="col-md-6" id="order-first">
+                        <div class="overview-left-view">
+                            <p>Inspired by Lutyens' iconic architecture in Delhi, this project blends classical design
+                                with modern sophistication. </p>
+                            <p>Located in the heart of Rudrapur, Eldeco Raisina Estate has plots and villas that offer
+                                grand facades, intricate detailing, and lush landscapes. Experience a refined,
+                                sophisticated lifestyle that pays tribute to a classic era, reimagined for those who
+                                cherish beauty and distinction.</p>
+
+                            <div class="overview-query-btn">
+                                <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">ENQUIRE NOW</a>
+                                <img class="img-fluid" src="images/leaf.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6" id="order-second">
+                        <div class="overview-right-view">
+                            <img class="img-fluid" src="images/overview-img.png" alt="">
+                            <p class="amnt-img-text">Actual images</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="highlight-section p-80" id="highlights">
+        <div class="container">
+            <div class="heading-section">
+                <h3 class="title-head text-uppercase">Highlights</h3>
+                <!-- <h3 class="title-head text-uppercase">Project USP<small>s</small> </h3> -->
+                <h5 class="title-subhead text-capitalize">Luxury, Security & Nature—Every Amenity, Thoughtfully Crafted
+                    for You!</h5>
+            </div>
+            <div class="highlights-tab-section">
+                <!--<ul class="nav nav-pills" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">HIGHLIGHTS</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">SPECIFICATIONS</button>
+                    </li>
+                  </ul>-->
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                        aria-labelledby="pills-home-tab">
+                        <div class="row justify-content-center">
+                            <div class="col-md-4">
+                                <div class="highlight-details">
+                                    <div class="high-icons">
+                                        <img class="img-fluid" src="images/icon/boundry.png" alt="">
+                                    </div>
+                                    <div class="high-points">
+                                        <h4 class="text-capitalize">Private Boundary Wall</h4>
+                                        <p>Your privacy, your space, your secure boundary.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="highlight-details">
+                                    <div class="high-icons">
+                                        <img class="img-fluid" src="images/icon/road.png" alt="">
+                                    </div>
+                                    <div class="high-points">
+                                        <h4 class="text-capitalize">21ft Wide Concrete Road</h4>
+                                        <p>Smooth, wide roads for seamless connectivity.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="highlight-details">
+                                    <div class="high-icons">
+                                        <img class="img-fluid" src="images/icon/street-light.png" alt="">
+                                    </div>
+                                    <div class="high-points">
+                                        <h4 class="text-capitalize">Street Lights</h4>
+                                        <p>Well-lit avenues for safety and charm.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="highlight-details">
+                                    <div class="high-icons">
+                                        <img class="img-fluid" src="images/icon/cctv-camera.png" alt="">
+                                    </div>
+                                    <div class="high-points">
+                                        <h4 class="text-capitalize">CCTV camera</h4>
+                                        <p>24/7 CCTV surveillance for complete peace of mind.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="highlight-details">
+                                    <div class="high-icons">
+                                        <img class="img-fluid" src="images/icon/gate-comm.png" alt="">
+                                    </div>
+                                    <div class="high-points">
+                                        <h4 class="text-capitalize">Gated Community</h4>
+                                        <p>Exclusive living with controlled access.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="highlight-details">
+                                    <div class="high-icons">
+                                        <img class="img-fluid" src="images/icon/drainage-system.png" alt="">
+                                    </div>
+                                    <div class="high-points">
+                                        <h4 class="text-capitalize">Well-Planned Drainage System</h4>
+                                        <p>Hassle-free water management for a clean environment.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="highlight-details">
+                                    <div class="high-icons">
+                                        <img class="img-fluid" src="images/icon/park.png" alt="">
+                                    </div>
+                                    <div class="high-points">
+                                        <h4 class="text-capitalize">Lush Green Landscaping</h4>
+                                        <p>Green surroundings for a refreshing lifestyle.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="highlight-details">
+                                    <div class="high-icons">
+                                        <img class="img-fluid" src="images/icon/society.png" alt="">
+                                    </div>
+                                    <div class="high-points">
+                                        <h4 class="text-capitalize">bungalow constructed society</h4>
+                                        <p>An exclusive bungalow community offering privacy, space, and luxury.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="highlight-details">
+                                    <div class="high-icons">
+                                        <img class="img-fluid" src="images/icon/hill-station.png" alt="">
+                                    </div>
+                                    <div class="high-points">
+                                        <h4 class="text-capitalize">Panoramic Hill Views</h4>
+                                        <p>Stunning hill views offering serenity and tranquility. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <div class="specifications-img">
+                                    <img class="img-fluid" src="images/specifications-image.webp" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6 pt-3">
+                                <div class="specifications-details">
+                                    <img src="images/icons/arrow.png" alt="">
+                                    <p>Enjoy your precious moments with 24x7 Security</p>
+                                </div>
+                                <div class="specifications-details">
+                                    <img src="images/icons/arrow.png" alt="">
+                                    <p>An exterior and interior drain tile system that runs to a sealed sump pit.</p>
+                                </div>
+                                <div class="specifications-details">
+                                    <img src="images/icons/arrow.png" alt="">
+                                    <p>Modular Kitchen With Chimney & Hob</p>
+                                </div>
+                                <div class="specifications-details">
+                                    <img src="images/icons/arrow.png" alt="">
+                                    <p>Imported Marble Flooring In Living / Dining / Kitchen</p>
+                                </div>
+                                <div class="specifications-details">
+                                    <img src="images/icons/arrow.png" alt="">
+                                    <p>Laminated Wooden Flooring In Bedrooms</p>
+                                </div>
+                                <div class="specifications-details">
+                                    <img src="images/icons/arrow.png" alt="">
+                                    <p>Premium CP Fittings And Sanitary Fixtures In Toilets</p>
+                                </div>
+                                <div class="specifications-details">
+                                    <img src="images/icons/arrow.png" alt="">
+                                    <p>Provision For Automation Of Lighting Fixtures And Curtains</p>
+                                </div>
+                                <div class="specifications-details">
+                                    <img src="images/icons/arrow.png" alt="">
+                                    <p>PU Finished 8 Ft. High Doors With Digital Lock On Apartment Entrance Door</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+
+            <!-- <div class="top-view-video">
+                <h5 class="video-head">Experience 360° View – Where Every Angle Inspires</h5>
+                <a class="video-btn" href="" data-bs-toggle="modal" data-bs-target="#video-modal2">CLICK HERE</a>
+            </div> -->
+
+
+        </div>
+    </div>
+
+
+    <div class="location_adv_1" id="location-advantages">
+        <div class="container">
+            <div class="heading-section">
+                <h3 class="title-head text-uppercase">LOCATION </h3>
+                <h5 class="title-subhead text-capitalize">Where City Meets Serenity—Nestled Amidst Majestic Hills!
+                </h5>
+            </div>
+
+            <div class="location-map">
+                <a href="images/map-lg.png" class="image-source-link without-caption map_link">
+                    <img src="images/map.webp" class=" w-100" alt="">
+                </a>
+                <ul class="flexpoints">
+                    <li class="listp d-flex">
+                        <div class="l_icon"><img src="images/icon/location.png" alt=""></div>
+                        <div class="textside">
+                            <p class="text">D-Mart</p>
+                            <span class="time">Your daily essentials, just 5.1 KM away.</span>
+                        </div>
+                    </li>
+                    <li class="listp d-flex">
+                        <div class="l_icon"><img src="images/icon/location.png" alt=""></div>
+                        <div class="textside">
+                            <p class="text">Shivmangal Multispeciality Hospital</p>
+                            <span class="time">Quality healthcare within 2.8 KM reach.</span>
+                        </div>
+                    </li>
+                    <li class="listp d-flex">
+                        <div class="l_icon"><img src="images/icon/location.png" alt=""></div>
+                        <div class="textside">
+                            <p class="text">The Vatsalya School</p>
+                            <span class="time">A bright future for your little ones, just 200 meters from your dream
+                                home.</span>
+                        </div>
+                    </li>
+                    <li class="listp d-flex">
+                        <div class="l_icon"><img src="images/icon/location.png" alt=""></div>
+                        <div class="textside">
+                            <p class="text">500 M to Ring Road </p>
+                            <span class="time">Quick access to smooth city connectivity.</span>
+                        </div>
+                    </li>
+                    <li class="listp d-flex">
+                        <div class="l_icon"><img src="images/icon/location.png" alt=""></div>
+                        <div class="textside">
+                            <p class="text">2.5 KM to Existing Bypass </p>
+                            <span class="time"> Stay effortlessly connected to major routes.</span>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- <div class="app_map_side">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d85650.04177405879!2d73.9614354666536!3d18.427734625404167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eb0fa51a8529%3A0xcc8aecaf4ecf6f21!2sMahalaxmi%2016%20Hill%20Winds!5e0!3m2!1sen!2sin!4v1742550070553!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              
+                <div class="location_adv_points container">
+                    <div class="location_adv_points_in">
+                        <div class="box">
+                            <p class="text">D-Mart</p>
+                            <span class="time">Your daily essentials, just 5.1 KM away.</span>
+                        </div>
+                        <div class="box">
+                            <p class="text">Shivmangal Multispeciality Hospital</p>
+                            <span class="time">Quality healthcare within 2.8 KM reach.</span>
+                        </div>
+                        <div class="box">
+                            <p class="text">The Vatsalya School</p>
+                            <span class="time">A bright future for your little ones, just 200 meters from your dream
+                                home.</span>
+                        </div>
+                        <div class="box">
+                            <p class="text">500 M to Ring Road </p>
+                            <span class="time">Quick access to smooth city connectivity.</span>
+                        </div>
+                        <div class="box">
+                            <p class="text">2.5 KM to Existing Bypass </p>
+                            <span class="time"> Stay effortlessly connected to major routes.</span>
+                        </div>
+                        <button class="btn_intrested">Intrested</button>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    </div>
+
+
+    <script>
+        `
+     <div class="location-section p-80" id="location-advantages">
+        <div class="container">
+            <div class="heading-section">
+                <h3 class="title-head text-uppercase">LOCATION Advantages</h3>
+                <!-- <h5 class="title-subhead">Access to Everything, Steps from Everywhere – Your Perfect Location Awaits</h5> -->
+            </div>
+
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="map-image">
+
+                        <a href="images/map-lg.png" class="image-source-link without-caption map_link">
+                            <img src="images/map.webp" class=" w-100" alt="">
+                        </a>
+                        <!-- <a class="location-video" href="" data-bs-toggle="modal" data-bs-target="#video-modal">CLICK TO VIEW LOCATION VIDEO</a> -->
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="location-details">
+                        <div class="row">
+
+                            <div class="col-md-6">
+                                <div class="location-points">
+                                    <!-- <div class="location-icon">
+                                        <p>0 KM</p>
+                                    </div>
+                                    <p>Karma Lakelands</p> -->
+                                    <div class="location-icon">
+                                        <img class="img-fluid" src="images/icon/limestone.png" alt="">
+                                    </div>
+                                    <p>Jim Corbett National Park: 62 Km drive </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="location-points">
+                                    <div class="location-icon">
+                                        <img class="img-fluid" src="images/icons/highway.png" alt="">
+                                    </div>
+                                    <p>Haldwani Accessible : 41 Km drive </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="location-points">
+                                    <div class="location-icon">
+                                        <img class="img-fluid" src="images/icons/airport.png" alt="">
+                                    </div>
+                                    <p>Pantnagar Airport : 22 Km away </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="location-points">
+                                    <div class="location-icon">
+                                        <img class="img-fluid" src="images/icons/hospital.png" alt="">
+                                    </div>
+                                    <p>AIIMS : 23 Km away</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="location-points">
+                                    <div class="location-icon">
+                                        <img class="img-fluid" src="images/icon/computer.png" alt="">
+                                    </div>
+                                    <p>SIDCUL Industrial Hub - 13 Km </p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="location-points">
+                                    <div class="location-icon">
+                                        <img class="img-fluid" src="images/icon/lake.png" alt=""
+                                            style="filter: invert(2);">
+                                    </div>
+                                    <p>Nainital : 83 Km </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="overview-query-btn">
+                            <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">KNOW MORE</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    `
+    </script>
+
+
+    <!--     <div class="amenities-section p-80" id="amenities">
+        <div class="container">
+            <div class="heading-section">
+                <h3 class="title-head">BEYOND COMFORT, INTO LUXURY</h3>
+                <h5 class="title-subhead">Experience a world where every amenity is crafted to elevate your lifestyle.</h5>
+            </div>
+            <div class="amenities-detail-section">
+                <div class="row ">
+                    <div class="col-md-5">
+                        <div class="amemity-icons-details-section">
+                            <ul class="nav nav-pills" id="pills-tab-amenity" role="tablist">
+                                <li class="nav-item amnt" role="presentation">
+                                  <button class="amenity-btn nav-link active" id="amenity-1" data-bs-toggle="pill" data-bs-target="#amenity-swimming-pool" type="button" role="tab" aria-controls="amenity-swimming-pool" aria-selected="true">
+                                        <img class="light-icon" src="images/amenities/icons/swimmer.png" alt="">
+                                        <img class="dark-icon" src="images/amenities/icons/swimmer-g.png" alt="">
+                                        <p>Swimming Pool</p>
+                                  </button>
+                                </li>
+                                <li class="nav-item amnt" role="presentation">
+                                  <button class="amenity-btn nav-link" id="amenity-2" data-bs-toggle="pill" data-bs-target="#amenity-path" type="button" role="tab" aria-controls="amenity-path" aria-selected="false">
+                                        <img class="light-icon" src="images/amenities/icons/tennis.png" alt="">
+                                        <img class="dark-icon" src="images/amenities/icons/tennis-g.png" alt="">
+                                        <p>Lawn Tennis</p>
+                                  </button>
+                                </li>
+                                <li class="nav-item amnt" role="presentation">
+                                  <button class="amenity-btn nav-link" id="amenity-3" data-bs-toggle="pill" data-bs-target="#amenity-basket" type="button" role="tab" aria-controls="amenity-basket" aria-selected="false">
+                                        <img class="light-icon" src="images/amenities/icons/cafe.png" alt="">
+                                        <img class="dark-icon" src="images/amenities/icons/cafe-g.png" alt="">
+                                        <p>Cafe</p>
+                                  </button>
+                                </li>
+                                <li class="nav-item amnt" role="presentation">
+                                  <button class="amenity-btn nav-link" id="amenity-4" data-bs-toggle="pill" data-bs-target="#amenity-player" type="button" role="tab" aria-controls="amenity-player" aria-selected="false">
+                                        <img class="light-icon" src="images/amenities/icons/hall.png" alt="">
+                                        <img class="dark-icon" src="images/amenities/icons/hall-g.png" alt="">
+                                        <p>Multi Purpose Hall</p>
+                                  </button>
+                                </li>
+                                <li class="nav-item amnt" role="presentation">
+                                  <button class="amenity-btn nav-link" id="amenity-5" data-bs-toggle="pill" data-bs-target="#amenity-cycle" type="button" role="tab" aria-controls="amenity-cycle" aria-selected="false">
+                                        <img class="light-icon" src="images/amenities/icons/gazebo.png" alt="">
+                                        <img class="dark-icon" src="images/amenities/icons/gazebo-g.png" alt="">
+                                        <p>Gazebo</p>
+                                  </button>
+                                </li>
+                                <li class="nav-item amnt" role="presentation">
+                                  <button class="amenity-btn nav-link" id="amenity-6" data-bs-toggle="pill" data-bs-target="#amenity-gazebo" type="button" role="tab" aria-controls="amenity-gazebo" aria-selected="false">
+                                        <img class="light-icon" src="images/amenities/icons/playground.png" alt="">
+                                        <img class="dark-icon" src="images/amenities/icons/playground-g.png" alt="">
+                                        <p>Kid's Play Area</p>
+                                  </button>
+                                </li>
+                                
+                                <button class="amenity-view-btn d-view"  data-bs-toggle="modal" data-bs-target="#exampleModal">View All Amenities</button>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-7">
+                        <div class="tab-content" id="pills-tabContent-amenity">
+                            <div class="tab-pane fade show active" id="amenity-swimming-pool" role="tabpanel" aria-labelledby="amenity-1">
+                                <div class="amenity-detail-image">
+                                    <img class="img-fluid" src="images/amenities/images/swimming-pool.webp" alt="">
+                       <p class="amnt-img-text">Actual images</p>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="amenity-path" role="tabpanel" aria-labelledby="amenity-2">
+                                <div class="amenity-detail-image">
+                                    <img class="img-fluid" src="images/amenities/images/tennis.webp" alt="">
+                                      <p class="amnt-img-text">Actual images</p>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="amenity-basket" role="tabpanel" aria-labelledby="amenity-3">
+                                <div class="amenity-detail-image">
+                                    <img class="img-fluid" src="images/amenities/images/cafe.webp" alt="">
+                                   
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="amenity-player" role="tabpanel" aria-labelledby="amenity-4">
+                                <div class="amenity-detail-image">
+                                    <img class="img-fluid" src="images/amenities/images/party-hall.webp" alt="">
+                                 
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="amenity-cycle" role="tabpanel" aria-labelledby="amenity-5">
+                                <div class="amenity-detail-image">
+                                    <img class="img-fluid" src="images/amenities/images/gazebo.webp" alt="">
+                                       <p class="amnt-img-text">Actual images</p>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="amenity-gazebo" role="tabpanel" aria-labelledby="amenity-6">
+                                <div class="amenity-detail-image">
+                                    <img class="img-fluid" src="images/amenities/images/playground.webp" alt="">
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="amenity-view-btn m-view"  data-bs-toggle="modal" data-bs-target="#exampleModal">View All Amenities</button>
+                </div>
+                    
+                    
+            </div>
+        </div>
+    </div> -->
+
+
+
+
+    <div class="price-section price-section-1" id="price">
+        <div class="container">
+            <div class="heading-section">
+                <h3 class="title-head">PRICING</h3>
+                <h5 class="title-subhead">Flexible plot sizes starting at just ₹21,999/Sqft—luxury living tailored to
+                    your budget and dreams.</h5>
+            </div>
+            <div class="pricebox_wrap">
+                <div class="pricebox">
+                    <div class="flexbox">
+                        <span class="primeryText headingsFont">Typology : </span>
+                        <p class="secText">Residential Plots</p>
+                    </div>
+                    <div class="flexbox">
+                        <span class="primeryText headingsFont">Starting Price :</span>
+                        <!-- <p class="secText price"> <span class="inrIcon">₹</span> 20 Lacs*</p> -->
+                        <p class="secText price"> <span class="inrIcon">₹</span> 21,999</p>
+                    </div>
+                    <div class="flexbox">
+                        <span class="primeryText headingsFont">Size : </span>
+                        <p class="secText">Per Sq.Ft.</p>
+                    </div>
+                    <div class="price-query-btn">
+                        <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">ENQUIRE NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+            `
+        <div class="price-section p-60" id="price">
+        <div class="container">
+            <div class="heading-section">
+                <h3 class="title-head"> PRICING</h3>
+
+                <!-- <h5 class="title-subhead">Bringing luxury within reach – where quality meets affordability</h5> -->
+            </div>
+            <div class="row justify-content-evenly">
+                <div class="col-md-4">
+                    <div class="pricing-box">
+                        <h4 class="typology">PLOTS</h4>
+                        <h6 class="starting-price">Starting Price</h6>
+
+                        <h3 class="price">₹ 20 Lacs* </h3>
+                        <div class="size">
+                            <h5>Size : </h5>
+                            <h5>Per Guntha (All Inclusive)</h5>
+                        </div>
+                        <div class="price-query-btn">
+                            <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">ENQUIRE NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        `
+    </script>
+
+    <div class="floor-plan-section p-80" id="master-and-floor-plan">
+        <div class="container">
+            <div class="heading-section">
+                <h3 class="title-head"> MASTER & FLOOR PLAN </h3>
+                <h5 class="title-subhead">Explore smartly designed layouts that give you the freedom to build your
+                    perfect villa or
+                    bungalow, your way.</h5>
+            </div>
+
+            <div class="row pt-5 justify-content-center master-floor-plan">
+                <div class="col-md-4 d-none">
+                    <div class="master-plan-img">
+                        <div class="img-details">
+                            <div class="head-name">
+                                <h4>LEGENDS</h4>
+                            </div>
+                            <div class="points-details">
+                                <div class="img-specs">
+                                    <span class="number">01</span>
+                                    <span>Club</span>
+                                </div>
+                                <div class="img-specs">
+                                    <span class="number">02</span>
+                                    <span>Swimming Pool</span>
+                                </div>
+                                <div class="img-specs">
+                                    <span class="number">03</span>
+                                    <span>Futsal Court</span>
+                                </div>
+                                <div class="img-specs">
+
+                                    <span class="number">04</span>
+                                    <span>Commercial</span>
+                                </div>
+                                <div class="img-specs">
+                                    <span class="number">05</span>
+                                    <span>Gazebo</span>
+                                </div>
+                                <div class="img-specs">
+                                    <span class="number">06</span>
+                                    <span>Kids Play Area</span>
+                                </div>
+                                <div class="img-specs">
+                                    <span class="number">07</span>
+                                    <span>Open Gym</span>
+                                </div>
+                                <div class="img-specs">
+                                    <span class="number">08</span>
+                                    <span>Badminton Court</span>
+                                </div>
+                                <div class="img-specs">
+                                    <span class="number">09</span>
+                                    <span>Free Play Area</span>
+                                </div>
+                                <div class="img-specs">
+                                    <span class="number">10</span>
+                                    <span>Cricekt Pitch</span>
+                                </div>
+                                <div class="img-specs">
+                                    <span class="number">11</span>
+                                    <span>Multi Purpose Court</span>
+                                </div>
+                                <div class="img-specs">
+                                    <span class="number">12</span>
+                                    <span>Tennis Court</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="master-plan position-relative">
+                        <!-- <a href="images/floor-plan/masterplan-zoom.png" class="with-caption image-link" title="master plan"> -->
+                        <img class="img-fluid" src="images/floor-plan/ṃaster-plan.png" alt="">
+                        <!-- <h4 class="button-btn-mobile">VIEW PLAN</h4> -->
+                        <!-- </a> -->
+                        <!-- <img class="img-fluid" src="images/floor-plan/ṃaster-plan.png" alt=""> -->
+                        <div class="floor-view-btn floor-sec"
+                            style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                            <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal"> VIEW PLAN</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- <div class="col-md-4">
+                    <div class="floor-view-btn floor-sec">
+                        <h4>MASTER PLAN</h4>
+                        <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal"> VIEW PLAN</a>
+                    </div>
+                </div> -->
+
+                <!--       <div class="col-md-3">
+                        <div class="owl-carouse owl-theme">
+                            <div class="item">
+                   
+                            </div>
+                            <div class="item">
+                              <div class="floor-sec">
+                                <data-bs-toggle= href="images/floor-plan/floor-plan.png" class="with-caption image-link" title="Floor Plan 2">
+                                  <img class="img-fluid" src="images/floor-plan/floor-plan.png" alt="">
+                                </data-bs-toggle="modal"
+                                <p class="floor-typo">4 BR</p>
+                                <p class="floor-plan">FLOOR PLAN</p>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                 <div class="col-md-3">
+                        <div class="owl-carouse owl-theme">
+                            <div class="item">
+                              <div class="floor-sec">
+                                <data-bs-toggle= href="images/floor-plan/floor-plan.png" class="with-caption image-link" title="Floor Plan 2">
+                                  <img class="img-fluid" src="images/floor-plan/floorplan-img-1.jpeg" alt="">
+                                </data-bs-toggle="modal"
+                                <p classexampleLightbox1floor-typo">4 BR</p>
+                                <p class="floor-plan">FLOOR PLAN</p>
+                                <div class="floor-view-btn">
+                                    <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">   VIEW PLAN</a>
+                                </div>
+                              </div>
+                            </div>
+                           <div class="item">
+                              <div class="floor-sec">
+                                <data-bs-toggle= href="images/floor-plan/floor-plan.png" class="with-caption image-link" title="Floor Plan 2">
+                                  <img class="img-fluid" src="images/floor-plan/floor-plan.png" alt="">
+                                </data-bs-toggle="modal"
+                                <p class="floor-typo">4 BR</p>
+                                <p class="floor-plan">FLOOR PLAN</p>
+                              </div>
+                            </div>
+                        </div>
+                    </div>  -->
+            </div>
+
+
+            <!-- <div class="d-view">
+                <div class="row floorplan-row d-view" id="floor-plan">
+                    <div class="col-sm-12 text-center mb-5">
+                        <h3 class="title-head">FLOOR PLAN</h3>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-bs-toggle="tab" href="#menu4">TYPE - A ( 4212.70 Sq. Ft.
+                                    )</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#menu1">TYPE - B ( 2509.17 Sq. Ft. )</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#menu5">TYPE - B ( 2524.58 Sq. Ft. )</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " data-bs-toggle="tab" href="#home">TYPE - B ( 2670.55 Sq. Ft.)</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#menu2">TYPE - B ( 2657.84 Sq. Ft. )</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#menu3">TYPE - C ( 2045.26 Sq. Ft. ) </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+
+                        <!~~ Tab panes ~~>
+                        <div class="tab-content">
+                            <div class="tab-pane container active" id="home">
+                                <div class="floor-sec">
+                                    <a href="images/floor-plan/floorplan-img-1.jpeg" class="with-caption image-link"
+                                        title="Floor Plan">
+                                        <img class="img-fluid" src="images/floor-plan/floorplan-img-1.jpeg" alt="">
+                                    </a> <!~~ <p class="exampleLightbox1-typo">VILLAS</p> ~~>
+                                    <!~~    <h4 class="floor-plan">FLOOR PLAN</h4>
+                                               <div class="floor-view-btn">
+                                                  <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">   VIEW PLAN</a>
+                                               </div> ~~>
+                                </div>
+
+                            </div>
+                            <div class="tab-pane container fade" id="menu1">
+
+                                <div class="floor-sec">
+                                    <a href="images/floor-plan/floorplan-img-2.jpeg" class="with-caption image-link"
+                                        title="Floor Plan">
+                                        <img class="img-fluid" src="images/floor-plan/floorplan-img-2.jpeg" alt="">
+                                    </a> <!~~ <p class="exampleLightbox1-typo">VILLAS</p> ~~>
+                                    <!~~    <h4 class="floor-plan">FLOOR PLAN</h4>
+                                               <div class="floor-view-btn">
+                                                  <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">   VIEW PLAN</a>
+                                               </div> ~~>
+                                </div>
+
+                            </div>
+                            <div class="tab-pane container fade" id="menu2">
+
+                                <div class="floor-sec">
+                                    <a href="images/floor-plan/floorplan-img-3.jpeg" class="with-caption image-link"
+                                        title="Floor Plan">
+                                        <img class="img-fluid" src="images/floor-plan/floorplan-img-3.jpeg" alt="">
+                                    </a> <!~~ <p class="exampleLightbox1-typo">VILLAS</p> ~~>
+                                    <!~~    <h4 class="floor-plan">FLOOR PLAN</h4>
+                                               <div class="floor-view-btn">
+                                                  <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">   VIEW PLAN</a>
+                                               </div> ~~>
+                                </div>
+
+
+                            </div>
+                            <div class="tab-pane container fade" id="menu2">
+
+                                <div class="floor-sec">
+                                    <a href="images/floor-plan/floorplan-img-4.jpeg.jpeg" class="with-caption image-link"
+                                        title="Floor Plan">
+                                        <img class="img-fluid" src="images/floor-plan/floorplan-img-3.jpeg" alt="">
+                                    </a> <!~~ <p class="exampleLightbox1-typo">VILLAS</p> ~~>
+                                    <!~~    <h4 class="floor-plan">FLOOR PLAN</h4>
+                                               <div class="floor-view-btn">
+                                                  <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">   VIEW PLAN</a>
+                                               </div> ~~>
+                                </div>
+
+
+                            </div>
+                            <div class="tab-pane container fade" id="menu4">
+
+                                <div class="floor-sec">
+                                    <a href="images/floor-plan/floorplan-img-5.jpeg" class="with-caption image-link"
+                                        title="Floor Plan">
+                                        <img class="img-fluid" src="images/floor-plan/floorplan-img-5.jpeg" alt="">
+                                    </a> <!~~ <p class="exampleLightbox1-typo">VILLAS</p> ~~>
+                                    <!~~    <h4 class="floor-plan">FLOOR PLAN</h4>
+                                               <div class="floor-view-btn">
+                                                  <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">   VIEW PLAN</a>
+                                               </div> ~~>
+                                </div>
+
+
+                            </div>
+                            <div class="tab-pane container fade" id="menu5">
+
+                                <div class="floor-sec">
+                                    <a href="images/floor-plan/floorplan-img-6.jpeg" class="with-caption image-link"
+                                        title="Floor Plan">
+                                        <img class="img-fluid" src="images/floor-plan/floorplan-img-6.jpeg" alt="">
+                                    </a> <!~~ <p class="exampleLightbox1-typo">VILLAS</p> ~~>
+                                    <!~~    <h4 class="floor-plan">FLOOR PLAN</h4>
+                                               <div class="floor-view-btn">
+                                                  <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">   VIEW PLAN</a>
+                                               </div> ~~>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>-->
+
+            <div class="row floorplan-row d-none" id="floor-plan">
+                <div class="col-sm-12 text-center mb-5">
+                    <h3 class="title-head text-uppercase">FLOOR PLANS</h3>
+                    <h5 class="title-subhead">Explore smartly designed layouts that give you the freedom to build your
+                        perfect villa or
+                        bungalow, your way.</h5>
+                </div>
+                <div id="demoB1" class="carousel slide" data-bs-ride="carousel">
+                    <div class="col-sm-12">
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="floor-sec">
+                                        <!-- <a href="#" data-bs-toggle="modal" data-bs-target="#exampleLightbox1" title="Floor Plan"> -->
+                                        <img class="img-fluid" src="images/floor-plan/floorplan-img-5-4212.jpeg" alt=""
+                                            data-bs-toggle="modal" data-bs-target="#exampleLightbox1"
+                                            data-bs-slide-to="0">
+                                        <!-- </a> -->
+                                        <!-- <p class="floor-typo">VILLAS</p> -->
+                                        <h4 class="floor-plan">TYPE - A ( 4212.70 Sq. Ft.)</h4>
+                                        <div class="floor-view-btn">
+                                            <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal"> VIEW
+                                                PLAN</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+
+
+                            <div class="btn-slider">
+                                <button class="carousel-control-prev" type="button" data-bs-target="#demoB1"
+                                    data-bs-slide="prev">
+                                    <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+                                    <img src="images/icons/left-arrow.png">
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#demoB1"
+                                    data-bs-slide="next">
+                                    <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                                    <img src="images/icons/right-arrow.png">
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!--   <div class="visual-journey p-80" id="gallery">
+        <div class="container">
+            <div class="heading-section">
+                <h3 class="title-head">GALLERY</h3>
+                <!~~ <h5 class="title-subhead">Step into a world where every frame captures the essence of beauty and innovation</h5> ~~>
+            </div>
+            <div class="gallery-images-section">
+                <div class="gal-image">
+                    <a href="images/gallery/g1.webp" class="with-caption image-link" title="Exterior Image">
+                        <img class="img-fluid" src="images/gallery/g1-sm.webp" alt="">
+                    </a>
+                    <span class="img-tagline">Actual images</span>
+                </div>
+                <div class="gal-image">
+                    <a href="images/gallery/g2.webp" class="with-caption image-link" title="Exterior Image">
+                        <img class="img-fluid" src="images/gallery/g2-sm.webp" alt="">
+                    </a>
+                    <span class="img-tagline">Actual images</span>
+                </div>
+                <div class="gal-image">
+                    <a href="images/gallery/g3.webp" class="with-caption image-link" title="Basket Ball Court">
+                        <img class="img-fluid" src="images/gallery/g3-sm.webp" alt="">
+                    </a>
+                    <span class="img-tagline">Actual images</span>
+                </div>
+                <div class="gal-image">
+                    <a href="images/gallery/g4.webp" class="with-caption image-link" title="Exterior Image">
+                        <img class="img-fluid" src="images/gallery/g4-sm.webp" alt="">
+                    </a>
+                    <span class="img-tagline">Actual images</span>
+                </div>
+                <div class="gal-image">
+                    <a href="images/gallery/g5.webp" class="with-caption image-link" title="Entrance">
+                        <img class="img-fluid" src="images/gallery/g5-sm.webp" alt="">
+                    </a>
+                    <span class="img-tagline">Actual images</span>
+                </div>
+                <div class="gal-image">
+                    <a href="images/gallery/g6.webp" class="with-caption image-link" title="Exterior Image">
+                        <img class="img-fluid" src="images/gallery/g6-sm.webp" alt="">
+                    </a>
+                    <span class="img-tagline">Actual images</span>
+                </div>
+                <div class="gal-image">
+                    <a href="images/gallery/g7.webp" class="with-caption image-link" title="Interior Image">
+                        <img class="img-fluid" src="images/gallery/g7-sm.webp" alt="">
+                    </a>
+                    <!~~ <span class="img-tagline">Actual images</span> ~~>
+                </div>
+                <div class="gal-image">
+                    <a href="images/gallery/g8.webp" class="with-caption image-link" title="Exterior Image">
+                        <img class="img-fluid" src="images/gallery/g8-sm.webp" alt="">
+                    </a>
+                    <span class="img-tagline">Actual images</span>
+                </div>
+                <div class="gal-image">
+                    <a href="images/gallery/gallery-img-9.webp" class="with-caption image-link" title="Exterior Image">
+                        <img class="img-fluid" src="images/gallery/gallery-img-9-min.webp" alt="">
+                    </a>
+                    <span class="img-tagline">Actual images</span>
+                </div>
+
+                <div class="gal-image">
+                    <a href="images/gallery/gallery-img-10.webp" class="with-caption image-link" title="Exterior Image">
+                        <img class="img-fluid" src="images/gallery/gallery-img-10-min.webp" alt="">
+                    </a>
+                    <span class="img-tagline">Actual images</span>
+                </div>
+
+            </div>
+        </div>
+    </div>-->
+
+    <div class="visual-journey p-80" id="gallery">
+        <div class="container">
+            <div class="heading-section">
+                <h3 class="title-head text-uppercase">GALLERY</h3>
+                <h5 class="title-subhead">Step into the world of 16 Hill Winds—experience the serene landscapes and
+                    premium lifestyle through every frame.</h5>
+            </div>
+            <div class="gallery-images-section">
+                <div class="gal-image">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleLightbox">
+                        <img data-bs-target="#lightboxExampleCarousel" data-bs-slide-to="0"
+                            src="images/gallery/g1-sm.webp" class="img-fluid">
+                    </a>
+                    <span class="img-tagline">Actual images</span>
+                </div>
+                <div class="gal-image">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleLightbox">
+                        <img data-bs-target="#lightboxExampleCarousel" data-bs-slide-to="0"
+                            src="images/gallery/g2-sm.webp" class="img-fluid">
+                    </a>
+                    <span class="img-tagline">Actual images</span>
+                </div>
+                <div class="gal-image">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleLightbox">
+                        <img data-bs-target="#lightboxExampleCarousel" data-bs-slide-to="0"
+                            src="images/gallery/g3-sm.webp" class="img-fluid">
+                    </a>
+                    <span class="img-tagline">Actual images</span>
+                </div>
+                <div class="gal-image">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleLightbox">
+                        <img data-bs-target="#lightboxExampleCarousel" data-bs-slide-to="0"
+                            src="images/gallery/g4-sm.webp" class="img-fluid">
+                    </a>
+                    <span class="img-tagline">Actual images</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-builder p-80" id="about-builder">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="abt-builder-sec">
+                        <div class="heading-section">
+                            <!-- <h3 class="title-head text-center">ABOUT BUILDER</h3> -->
+                            <img src="images/builder-logo.png">
+                        </div>
+                        <!-- <div class="builder-projects-details">
+                            <p><span>35+</span> Years</p>
+                            <p><span>20+</span> Cities</p>
+                            <p><span>200+</span> Projects</p>
+                            <p><span>30000+</span> Homes</p>
+                        </div> -->
+                        <div class="about-builder-content">
+                            <p>Amar Shelar, the visionary force behind Vishwavinayak Developers, is redefining real
+                                estate in Pune with a decade-long legacy of trust and excellence. His ventures focus on
+                                offering premium open bungalow plots within the proposed Pune Municipal Corporation
+                                (PMC) limits—blending modern amenities with smart affordability. Also at the forefront
+                                of Shelar Realty, Amar Shelar brings over 10 years of deep industry experience, making
+                                him a trusted name for those looking to invest in thoughtfully planned, future-ready
+                                spaces.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <!--     <div class="col-md-5">
+                    <div class="heading-section">
+                        <h3 class="title-head">ENQUIRE NOW</h3>
+                    </div>
+                    <div class="footer-form">
+                            <div class="form">
+                                <div class="form-group">
+                                  <input type="text" class="form-control" placeholder="Enter Name" name="name" id="qSenderName2">
+                                </div>
+                                <div class="form-group">
+                                  <input type="email" class="form-control" placeholder="Enter Email" name="email" id="qEmailID2">
+                                </div>
+                                <div class="form-group">
+                                  <input type="text" class="form-control" placeholder="Enter Number" name="number" id="qMobileNo2">
+                                </div>
+                                <div class="form-group">
+                                  <input name="message" id="qMessage2" class="form-control" placeholder="Enter Message">
+                                </div>
+                                <button class="submit_btn" id="SubmitQuery2">Submit Now</button>
+                        
+                            </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer" id="about-builder">
+        <div class="container">
+            <!--     <div class="project-light-logo">
+                <img class="img-fluid" src="images/eldeco-project-logo.png" alt="">
+            </div> -->
+            <!-- <div class="rera-section">
+                <p>RERA NO.: coming soon  </p>
+                <a target="_blank" href="www.ukrera.org.in ">www.ukrera.org.in </a>
+            </div> -->
+            <div class="disclaimer">
+                <p>Disclaimer - The content and visuals in this advertisement are solely an artistic rendering for
+                    illustrative purposes and are not to scale, it does not constitute a legal offer or forms part of
+                    any legally binding agreement. The promoter
+                    of the project clarifies that the information provided herein are indicative in nature. Intending
+                    purchasers are advised to verify all the details independently with the respective sales team of
+                    promoter of the project regarding plans,
+                    specifications, terms of sales and payments and other relevant details independently before making
+                    any purchase decision regarding any unit in the project.</p>
+            </div>
+            <div class="media-partner-gtf">
+                <p>
+                    <a target="_blank" href="disclaimer.html"> Disclaimer & Privacy Policy</a> | Digital Media Planned
+                    by <a target="_blank" href="https://gtftechnologies.com/">GTF Technologies</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- modal section -->
+
+    <div class="popup-section modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <!-- <div class="popup_image">
+                                <img class="img-fluid" src="images/popup-image.webp">
+                                <!~~ <div class="popup-image-details">
+                                    <div class="popup-typology">
+                                        <p> Villas</p>
+                                    </div>
+                                    <div class="popup-pricing">
+                                        <span>STARTING PRICE</span>
+                                        <p> ₹ 1.55 Cr* </p>
+                                    </div>
+                                </div> ~~>
+                            </div>-->
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="popup-form form_section">
+                                <div class="popup-project-logo">
+                                    <img class="img-fluid" src="images/builder-logo.png" alt="">
+                                </div>
+                                <div class="form lower-form-part">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Enter Name" name="name"
+                                            id="qSenderName">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Enter Email" name="email"
+                                            id="qEmailID">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Enter Number" name="number"
+                                            id="qMobileNo">
+                                    </div>
+                                    <div class="form-group">
+                                        <input name="message" id="qMessage" class="form-control"
+                                            placeholder="Enter Message"></input>
+                                    </div>
+                                    <div class="d-flex align-items-start checkbox-section">
+                                        <input type="checkbox" onclick="return false" checked>
+                                        I authorize company representatives to Call, SMS, Email or WhatsApp me about its
+                                        products and
+                                        offers. This consent overrides any registration for DNC/NDNC.
+                                    </div>
+                                    <button class="submit_btn" id="SubmitQuery">Submit Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="popup-section video-section modal fade" id="video-modal" tabindex="-1"
+        aria-labelledby="video-modal-label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="video-location">
+                        <video width="100%" controls autoplay muted loop>
+                            <!-- <source src="images/location-video.mp4" type="video/mp4"> -->
+                        </video>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="popup-section video-section modal fade" id="video-modal2" tabindex="-1"
+        aria-labelledby="video-modal-label2" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="video-location">
+                        <video width="100%" controls autoplay muted loop>
+                            <!-- <source src="images/View From 22nd Floor-HD (2).mp4" type="video/mp4"> -->
+                        </video>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleLightbox" tabindex="-1" aria-labelledby="exampleLightboxLabel"
+        aria-hidden="true">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+
+
+            <div class="modal-content">
+                <!--<div class="modal-header">
+                    <!~~ <h5 class="modal-title" id="exampleLightboxLabel">Lightbox Example</h5> ~~>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>-->
+                <div class="modal-body">
+                    <div id="lightboxExampleCarousel" class="carousel slide">
+                        <div class="carousel-inner ratio ratio-16x9 ">
+                            <div class="carousel-item text-center active">
+                                <img src="images/gallery/g1.webp" class="img-fluid mh-100">
+                            </div>
+                            <div class="carousel-item text-center">
+                                <img src="images/gallery/g2.webp" class="img-fluid mh-100">
+                            </div>
+                            <div class="carousel-item text-center">
+                                <img src="images/gallery/g3.webp" class="img-fluid mh-100">
+                            </div>
+
+                            <div class="carousel-item text-center ">
+                                <img src="images/gallery/g4.webp" class="img-fluid mh-100">
+                            </div>
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#lightboxExampleCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#lightboxExampleCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- mobile section -->
+    <div class="modal fade" id="exampleLightbox1" tabindex="-1" aria-labelledby="exampleLightboxLabel"
+        aria-hidden="true">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+
+
+
+
+
+
+            <div class="modal-content">
+                <!--<div class="modal-header">
+                <!~~ <h5 class="modal-title" id="exampleLightboxLabel">Lightbox Example</h5> ~~>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>-->
+                <div class="modal-body">
+                    <div id="lightboxExampleCarousel1" class="carousel slide">
+                        <div class="carousel-inner ratio ratio-16x9 ">
+                            <div class="carousel-item text-center active">
+                                <img src="images/floor-plan/floorplan-img-5-4212.jpeg" class="img-fluid mh-100">
+                                <div class="carousel-caption d-block" style="color: #000;">
+                                    <h5 style="font-size: 14px;">TYPE - A ( 4212.70 Sq. Ft. )</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <img src="images/floor-plan/floorplan-img-2-2509.jpeg" class="img-fluid mh-100">
+                                <div class="carousel-caption d-block" style="color: #000;">
+                                    <h5 style="font-size: 14px;">TYPE - B ( 2509.17 Sq. Ft. )</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <img src="images/floor-plan/floorplan-img-6-2524.jpeg" class="img-fluid mh-100">
+                                <div class="carousel-caption d-block" style="color: #000;">
+                                    <h5 style="font-size: 14px;">TYPE - B ( 2524.58 Sq. Ft. )</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <img src="images/floor-plan/floorplan-img-1-2670.jpeg" class="img-fluid mh-100">
+                                <div class="carousel-caption d-block" style="color: #000;">
+                                    <h5 style="font-size: 14px;">TYPE - B ( 2670.55 Sq. Ft. )</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <img src="images/floor-plan/floorplan-img-3-2657.jpeg" class="img-fluid mh-100">
+                                <div class="carousel-caption d-block" style="color: #000;">
+                                    <h5 style="font-size: 14px;">TYPE - B ( 2657.84 Sq. Ft. )</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <img src="images/floor-plan/floorplan-img-4-2045.jpeg" class="img-fluid mh-100">
+                                <div class="carousel-caption d-block" style="color: #000;">
+                                    <h5 style="font-size: 14px;">TYPE - C ( 2045.26 Sq. Ft. )</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#lightboxExampleCarousel1"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#lightboxExampleCarousel1"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-section">
+        <a class="" href="tel:+917796081000"> Tap To Call </a>
+        <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal"> Query Now </a>
+        <a href="https://api.whatsapp.com/send?phone=+917796081000 &amp;text=Hello, Looking for 16 Hill Winds - Phase 3, Survey Number 16, Wadachi Wadi, Undri, Pune. Get in touch with me my name is"
+            target="_blank">Whats App </a>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script type="text/javascript" language="javascript">
+        var versionUpdate = (new Date()).getTime();
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = "https://api2.gtftech.com/scripts/queryform.min.ssl.js?v=" + versionUpdate;
+        document.body.appendChild(script);
+    </script>
+
+    <script>
+        var AgentInfo = {
+            "vAgentID": "xxxx",
+            "vProject": "16 Hill Winds - Phase 3, Pune",
+            "vURL": "https://layout.gtftechnologies.com/shelar-realty/",
+            "thankspageurl": "https://layout.gtftechnologies.com/shelar-realty/thanks.htm",
+        };
+
+        //Needs to be duplicate in the case of multiple forms on the same page
+        //--------------------------------------------------------------------------------------//
+        $('#preferedtime').hide();
+
+        $("#SubmitQuery").click(function () {
+            var FormInfo = {
+                "SenderControlID": "qSenderName",
+                "SenderControlMobileID": "qMobileNo",
+                "SenderControlEmailID": "qEmailID",
+                "SenderControlCountryCodeID": "qCountryCode",
+                "SenderControlTimeID": "qtimeslot",
+                "SenderControlMsgID": "qMessage"
+            };
+
+            SubmitQueryData(AgentInfo, FormInfo);
+        });
+        $("#SubmitQuery2").click(function () {
+            var FormInfo = {
+                "SenderControlID": "qSenderName2",
+                "SenderControlMobileID": "qMobileNo2",
+                "SenderControlEmailID": "qEmailID2",
+                "SenderControlCountryCodeID": "qCountryCode2",
+                "SenderControlTimeID": "qtimeslot2",
+                "SenderControlMsgID": "qMessage2"
+            };
+
+            SubmitQueryData(AgentInfo, FormInfo);
+        });
+    </script>
+
+
+    <!-- Magnific Popup  -->
+    <script>
+        $('.without-caption').magnificPopup({
+            type: 'image',
+            closeOnContentClick: true,
+            closeBtnInside: false,
+            mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
+            image: {
+                verticalFit: true
+            },
+            zoom: {
+                enabled: true,
+                duration: 300 // don't foget to change the duration also in CSS
+            }
+        });
+
+        $('.with-caption').magnificPopup({
+            type: 'image',
+            closeOnContentClick: true,
+            closeBtnInside: false,
+            mainClass: 'mfp-with-zoom mfp-img-mobile',
+            image: {
+                verticalFit: true,
+                titleSrc: function (item) {
+                    return item.el.attr('title') + ' &middot; <a class="image-source-link" href="' + item.el.attr('data-source') + '" target="_blank"></a>';
+                }
+            },
+            zoom: {
+                enabled: true
+            }
+        });
+
+    </script>
+
+    <!-- Owl Carousel -->
+    <script>
+        const prevIcon = `<img src="images/icons/left-arrow.png" alt="left">`
+        const nextIcon = `<img src="images/icons/right-arrow.png" alt="right">`
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 0,
+            nav: true,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplaySpeed: 3000,
+            navText: [
+                prevIcon,
+                nextIcon
+            ],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+    </script>
+
+    <script>
+
+        //     let totalTabsCount = 0;
+        //     let activeTabIndex = 1;
+        //     let tabChangeTimeout = 6000;
+
+        //   totalTabsCount = $("#pills-tab-amenity .nav-link").length;
+
+        //   function tabChangeHandler() {
+        //     if (activeTabIndex == totalTabsCount) {
+        //       activeTabIndex = 1;
+        //     } else {
+        //       activeTabIndex++;
+        //     }
+        //     $("#pills-tab-amenity .nav-link")
+        //       .eq(parseInt(activeTabIndex - 1))
+        //       .trigger("click");
+        //   }
+
+        // let AUTO_CHANGE_TIMER = setInterval(tabChangeHandler, tabChangeTimeout);
+
+        // IF PAUSE AUTO CHANGE ON HOVER THEN FOLLOW BELOW CODE
+        // $("#pills-tab-amenity .nav-link").hover(
+        //   function () {
+        //     clearInterval(AUTO_CHANGE_TIMER);
+        //   },
+        //   function () {
+        //     AUTO_CHANGE_TIMER = setInterval(tabChangeHandler, tabChangeTimeout);
+        //   }
+        // );
+    </script>
+
+    <script>
+        $(document).ready(() => {
+            setTimeout(() => {
+                $('#exampleModal').modal('show');
+            }, 6000);
+        })
+    </script>
+
+
+    <script>
+        /* Open when someone clicks on the span element */
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        /* Close when someone clicks on the "x" symbol inside the overlay */
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+
+    <script>
+        $(".mobile-trigger-in").click(function () {
+            $("body").toggleClass("mobile-open");
+        });
+    </script>
+    <script>
+        // Hide menu_section when any <li> in the <ul> is clicked
+        $('.menu_section ul li, .closemenu').click(function () {
+            $("body").removeClass("mobile-open");
+        });
+    </script>
+    <script>
+        // Hide menu_section when any <li> in the <ul> is clicked
+        $('.menu_section ul li').click(function () {
+            $("body").removeClass("mobile-open");
+        });
+    </script>
+
+    <script>
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 1) {
+                $('.navbar').addClass('fixed');
+            } else {
+                $('.navbar').removeClass('fixed');
+            }
+        });
+    </script>
+    <!-- <script>
+        const pageScrollTop = $('.page_container').offset().top;
+
+        $(window).scroll(function () {
+            const pageScrollPos = $(window).scrollTop();
+            if (pageScrollPos > pageScrollTop) {
+                $('.enquire_fixed_btn').addClass('show');
+            } else {
+                $('.enquire_fixed_btn').removeClass('show');
+            }
+        })
+    </script> -->
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const mobileSection = document.querySelector('.mobile-section');
+
+            window.addEventListener('scroll', function () {
+                if (window.scrollY > 100) { // Adjust this value as needed
+                    mobileSection.classList.add('show');
+                } else {
+                    mobileSection.classList.remove('show');
+                }
+            });
+        });
+    </script>
+    <script>
+        $('.asidebar li a').on('click', function (e) {
+            var target = this.hash,
+                $target = $(target);
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top - 50
+            }, 100, 'swing', function () {
+                window.location.hash = target;
+            });
+        });
+    </script>
+
+</body>
+
+</html>
