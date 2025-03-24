@@ -2404,13 +2404,6 @@ div#exampleLightbox1 button.btn-close {
     }
 
     .about-us::before {
-        right: inherit;
-        background-position: left top;
-        transform: inherit;
-        background-size: 75%;
-        bottom: 5%;
-        left: 29%;
-        rotate: 337deg;
     }
 
     .overview-right-view img {
