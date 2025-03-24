@@ -1530,8 +1530,8 @@
         var AgentInfo = {
             "vAgentID": "xxxx",
             "vProject": "16 Hill Winds - Phase 3, Pune",
-            "vURL": "https://layout.gtftechnologies.com/shelar-realty/",
-            "thankspageurl": "https://layout.gtftechnologies.com/shelar-realty/thanks.htm",
+            "vURL": "https://shelar-property.com/",
+            "thankspageurl": "https://shelar-property.com/thanks.htm",
         };
 
         //Needs to be duplicate in the case of multiple forms on the same page

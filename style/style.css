@@ -1,13 +1,4 @@
-* {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
+*,
 body,
 h1,
 h2,
@@ -15,84 +6,92 @@ h3,
 h4,
 h5,
 h6,
+li,
 p,
-ul,
-li {
-    padding: 0px;
-    margin: 0px;
+ul {
+    padding: 0;
+    margin: 0
 }
 
-.container-fluid {
-    overflow: hidden;
+.container-fluid,
+body.modal-open {
+    overflow: hidden
+}
+
+* {
+    box-sizing: border-box
+}
+
+html {
+    scroll-behavior: smooth
 }
 
 .container,
 .container-fluid {
-    padding: 0px !important;
+    padding: 0 !important
 }
 
 body.modal-open {
-    overflow: hidden;
-    padding-right: 0px !important;
+    padding-right: 0 !important
 }
 
 @font-face {
     font-family: Dropkicker;
     src: url("../fonts/Dropkicker/Dropkicker-Regular-BF64e5680b0e3f3.ttf");
     font-weight: 400;
-    font-display: swap;
+    font-display: swap
 }
 
 @font-face {
     font-family: Dropkicker;
     src: url("../fonts/Dropkicker/Dropkicker-Thin-BF64e5680ae8149.ttf");
     font-weight: 300;
-    font-display: swap;
+    font-display: swap
 }
 
 @font-face {
     font-family: Dropkicker;
     src: url("../fonts/Dropkicker/Dropkicker-SemiBold-BF64e5680ab09dc.ttf");
     font-weight: 400;
-    font-display: swap;
+    font-display: swap
 }
 
 @font-face {
     font-family: Montserrat;
     src: url("../fonts/Montserrat/Montserrat-Light.ttf");
     font-weight: 300;
-    font-display: swap;
+    font-display: swap
 }
 
 @font-face {
     font-family: Montserrat;
     src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
     font-weight: 400;
-    font-display: swap;
+    font-display: swap
 }
 
 @font-face {
     font-family: Montserrat;
     src: url("../fonts/Montserrat/Montserrat-Medium.ttf");
     font-weight: 500;
-    font-display: swap;
+    font-display: swap
 }
 
 @font-face {
     font-family: Montserrat;
     src: url("../fonts/Montserrat/Montserrat-SemiBold.ttf");
     font-weight: 600;
-    font-display: swap;
+    font-display: swap
 }
 
 :root {
     --dropkicker: 'Dropkicker';
     --montserrat: 'montserrat';
-    --green-color: #097952;
+    --green-color: #097952
 }
 
 body {
-    background-color: rgb(253, 252, 238) !important;
+    background-color: #fdfcee !important
 }
 
 h1,
@@ -102,55 +101,62 @@ h4,
 h5,
 h6,
 span {
-    font-family: var(--dropkicker);
+    font-family: var(--dropkicker)
 }
 
+a,
 body,
-p,
-a {
-    font-family: var(--montserrat);
+p {
+    font-family: var(--montserrat)
 }
 
 .pt-50 {
-    padding-top: 50px;
+    padding-top: 50px
 }
 
 .pt-60 {
-    padding-top: 60px;
+    padding-top: 60px
 }
 
 .pt-70 {
-    padding-top: 70px;
+    padding-top: 70px
 }
 
 .p-60 {
-    padding: 40px 0px 60px;
+    padding: 40px 0 60px
 }
 
 .p-80 {
-    padding: 80px 0px 40px;
+    padding: 80px 0 40px
 }
 
 .p-100 {
-    padding: 100px 0px 40px;
+    padding: 100px 0 40px
 }
 
 a {
-    text-decoration: none !important;
+    text-decoration: none !important
 }
 
 .heading-section {
     text-align: center;
     position: relative;
     z-index: 99;
-    margin-bottom: 30px;
+    margin-bottom: 30px
+}
+
+.menu_section,
+.navbar.fixed {
+    position: fixed;
+    top: 0;
+    background: #fdfcee
 }
 
 .heading-section .title-head {
     font-size: 28px;
     letter-spacing: 4px;
     line-height: 50px;
-    margin: 0px;
+    margin: 0
 }
 
 .heading-section .title-subhead {
@@ -161,98 +167,103 @@ a {
     line-height: 35px;
     padding-top: 25px;
     margin: auto;
-    font-size: 18px;
+    font-size: 18px
 }
 
 header.header {
     position: absolute;
     z-index: 999;
-    width: 100%;
-    /* background: linear-gradient(rgb(0 0 0 / 28%), rgba(0, 0, 0, 0)); */
+    width: 100%
 }
 
 .header nav.navbar {
     width: 100%;
     justify-content: center;
-    min-height: 100px;
+    min-height: 100px
 }
 
 .navbar.fixed nav.navbar {
-    min-height: 110px;
+    min-height: 110px
 }
 
 button.nav-toggler {
-    background: transparent;
-    border: none;
+    background: 0 0;
+    border: none
+}
+
+.header a.banner-query-btn,
+.navbar.fixed a.banner-query-btn {
+    padding: 10px 20px;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none
 }
 
 img.nav-toggler.hamburger-icon {
-    width: 30px;
+    width: 30px
 }
 
 .header a.banner-query-btn {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    background: rgb(255, 255, 255);
-    padding: 10px 20px;
-    border-radius: 50px;
-    font-size: 12px;
-    letter-spacing: 1px;
-    cursor: pointer;
+    background: #fff;
+    font-size: 12px
 }
 
-.header a.banner-query-btn:hover {
-    color: rgb(0, 0, 0);
+
+.banner-content .project_typology,
+.banner-content .banner-typology h2,
+.banner-content .banner-typology h3 {
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, .63);
+    margin-bottom: 15px;
+    font-weight: 300
+}
+
+
+.header a.banner-query-btn:hover,
+a.navbar-call-btn:hover,
+nav.navbar.fixed p.rera-p.mobile_rera {
+    color: #000
 }
 
 .header .project-logo {
-    width: 150px;
+    width: 150px
 }
 
 .navbar.fixed {
-    position: fixed;
-    top: 0px;
-    background: rgb(253, 252, 238);
     z-index: 99;
-    box-shadow: rgba(181, 181, 181, 0.7) 0px 8px 6px -6px;
+    box-shadow: rgba(181, 181, 181, .7) 0 8px 6px -6px
 }
 
 .navbar.fixed .project-logo {
-    width: 130px;
+    width: 130px
 }
 
 .navbar.fixed .openmenu {
     width: 30px;
-    filter: invert(1);
+    filter: invert(1)
 }
 
 .navbar.fixed a.banner-query-btn {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    background: transparent;
-    padding: 10px 20px;
-    border-radius: 50px;
+    background: 0 0;
     font-size: 11px;
-    letter-spacing: 1px;
-    border: 1px solid rgb(20, 105, 60);
-    cursor: pointer;
+    border: 1px solid #14693c
 }
 
+.menu_section ul li a:hover,
 .navbar.fixed a.banner-query-btn:hover {
-    color: rgb(0, 0, 0) !important;
-}
-
-.closemenu {
-    display: none;
+    color: #000 !important
 }
 
 .openmenu {
     width: 30px;
-    cursor: pointer;
+    cursor: pointer
 }
 
 .closemenu {
-    width: 18px;
+    display: none;
+    width: 18px
 }
 
 .mobile-open .closemenu {
@@ -264,43 +275,47 @@ img.nav-toggler.hamburger-icon {
     width: 36px;
     z-index: 999;
     cursor: pointer;
-    transition: 0.3s ease-in;
+    transition: .3s ease-in;
     border: 1px solid;
-    border-radius: 50%;
+    border-radius: 50%
 }
 
-.mobile-open .openmenu {
-    display: none;
-}
-
-.menu_section {
-    position: fixed;
-    max-width: 510px;
-    right: -100%;
-    top: 0px;
-    bottom: 0px;
-    background: rgb(253, 252, 238);
-    transition: 0.7s ease-in-out;
-    height: 100%;
-    width: 100%;
-    border-left: 1px solid rgb(202, 193, 158);
-    z-index: 9999999;
-    overflow: hidden scroll !important;
+.amenities-detail-section .nav-link .light-icon,
+.amenities-detail-section .nav-link.active .dark-icon,
+.banner-call-section,
+.builder-projects-details p:nth-child(4)::after,
+.builder-projects-details::after,
+.builder-projects-details::before,
+.header .navbar.fixed .project-logo.logo-light,
+.header .project-logo.logo-dark,
+.m-view,
+.mobile-open .openmenu,
+.mobile-section,
+.overview_points_list li:last-child::before,
+body.mobile-open p.rera-p.mobile_rera,
+p.rera-p-mobile,
+p.rera-p.mobile_rera {
+    display: none
 }
 
 .menu_logo img {
     width: 180px;
-    padding: 20px;
+    padding: 20px
 }
 
-.menu_logo {
-    text-align: center;
+.floor-sec,
+.floor-view-btn,
+.location-section .overview-query-btn,
+.menu_logo,
+.nav-tabs .nav-link,
+.popup-section .modal-dialog .menu_logo {
+    text-align: center
 }
 
 .menu_section ul {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none
 }
 
 .menu_section ul li a {
@@ -308,22 +323,21 @@ img.nav-toggler.hamburger-icon {
     font-size: 13px;
     font-weight: 400;
     line-height: 15.03px;
-    color: rgb(0, 0, 0);
+    color: #000;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 2px
 }
 
-.menu_section ul li a:hover {
-    color: rgb(0, 0, 0) !important;
-}
-
-.menu_in ul li a.closemenu {
-    width: 100%;
+#exampleLightbox .carousel-item img,
+.location-section .map-image img,
+.menu_in ul li a.closemenu,
+.overview-right-view img {
+    width: 100%
 }
 
 .menu_section ul li {
-    padding: 15px 0px 10px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.22);
+    padding: 15px 0 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, .22)
 }
 
 .menu_location p {
@@ -334,13 +348,13 @@ img.nav-toggler.hamburger-icon {
     display: flex;
     justify-content: center;
     align-items: center;
-    letter-spacing: 1.4px;
+    letter-spacing: 1.4px
 }
 
 .menu_location p img.map {
     filter: invert(1);
     width: 11px;
-    margin-right: 5px;
+    margin-right: 5px
 }
 
 .mobile-open .mobile-trigger {
@@ -348,80 +362,77 @@ img.nav-toggler.hamburger-icon {
     display: block;
     height: auto;
     line-height: normal;
-    padding: 0px;
+    padding: 0;
     position: relative;
     right: -185px;
     width: auto;
-    z-index: 99999;
+    z-index: 99999
 }
 
 .mobile-trigger i,
 .mobile-trigger i::after,
 .mobile-trigger i::before {
     position: relative;
-    top: 0px;
+    top: 0;
     background-color: var(--primary-color);
     border-radius: 1px;
     display: block;
     height: 2px;
-    width: 30px;
+    width: 30px
 }
 
 .mobile-trigger i::after,
 .mobile-trigger i::before {
     content: "";
-    position: absolute;
+    position: absolute
 }
 
 .mobile-trigger i::before {
-    top: -10px;
+    top: -10px
 }
 
 .mobile-trigger i::after {
-    top: 10px;
+    top: 10px
 }
 
 .mobile-open .mobile-trigger i::before {
     background-color: var(--primary-color);
-    bottom: 0px;
-    top: 0px;
+    bottom: 0;
+    top: 0;
     transform: rotate(-45deg);
-    transition: bottom 0.3s cubic-bezier(0.23, 1, 0.32, 1), transform 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.3s;
+    transition: bottom .3s cubic-bezier(.23, 1, .32, 1), transform .3s cubic-bezier(.23, 1, .32, 1) .3s
 }
 
 .mobile-open .mobile-trigger i::after {
     background-color: var(--primary-color);
-    top: 0px;
+    top: 0;
     transform: rotate(45deg);
-    transition: top 0.3s cubic-bezier(0.23, 1, 0.32, 1), transform 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.3s;
+    transition: top .3s cubic-bezier(.23, 1, .32, 1), transform .3s cubic-bezier(.23, 1, .32, 1) .3s
 }
 
 .mobile-open .mobile-trigger i {
-    background-color: transparent;
+    background-color: transparent
 }
 
 .menu_section {
-    position: fixed;
     max-width: 510px;
     right: -100%;
-    top: 0px;
-    bottom: 0px;
+    bottom: 0;
     z-index: 9;
-    background: rgb(253, 252, 238);
-    transition: 0.7s ease-in-out;
+    transition: .7s ease-in-out;
     height: 100%;
     width: 100%;
-    border-left: 1px solid rgb(202, 193, 158);
-    overflow: hidden scroll !important;
+    border-left: 1px solid #cac19e;
+    overflow: hidden scroll !important
 }
 
 .mobile-open .menu_section {
-    right: 0px;
+    right: 0
 }
 
 .menu_section .menu_in {
     padding: 60px 116px 20px 60px;
-    position: relative;
+    position: relative
 }
 
 .menu_section .absLogo {
@@ -433,11 +444,13 @@ img.nav-toggler.hamburger-icon {
     width: 34%;
     z-index: -1;
     rotate: 288deg;
-    opacity: 0.11;
+    opacity: .11
 }
 
+.amenities-detail-section .tab-content,
+.amenities-detail-section .tab-content .tab-pane,
 .menu_section .absLogo img {
-    height: 100%;
+    height: 100%
 }
 
 .navbar-socila-links {
@@ -445,45 +458,45 @@ img.nav-toggler.hamburger-icon {
     justify-content: start;
     align-items: center;
     gap: 25px;
-    padding: 18px 0px;
+    padding: 18px 0
+}
+
+.banner-content,
+.menu-section {
+    justify-content: center;
+    display: flex
 }
 
 .menu-section {
-    display: flex;
-    justify-content: center;
     column-fill: balance;
     align-items: center;
-    gap: 50px;
+    gap: 50px
 }
 
 .banner-call-section {
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid #fff;
     padding: 7px 16px;
     border-radius: 60px;
-    background: rgb(255, 255, 255);
+    background: #fff
 }
 
 .banner-call-section img {
-    width: 14px;
+    width: 14px
 }
 
 a.navbar-call-btn {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: #000;
     font-size: 14px;
     letter-spacing: 1px;
-    font-weight: 400;
-}
-
-a.navbar-call-btn:hover {
-    color: rgb(0, 0, 0);
+    font-weight: 400
 }
 
 .navbar.fixed .banner-call-section {
-    border: 1px solid rgb(20, 105, 60);
+    border: 1px solid #14693c;
     padding: 7px 16px;
     border-radius: 60px;
-    background: transparent;
+    background: 0 0
 }
 
 .banner-section .banner_abs_div {
@@ -494,132 +507,166 @@ a.navbar-call-btn:hover {
     color: #fff;
     font-size: 20px;
     text-transform: capitalize;
-    letter-spacing: 1px;
+    letter-spacing: 1px
 }
 
-.banner-section .carousel-control-prev-icon,
-.banner-section .carousel-control-next-icon {
+.banner-section .carousel-control-next-icon,
+.banner-section .carousel-control-prev-icon {
     background-size: 23px;
-    border-radius: 50%;
+    border-radius: 50%
 }
 
 .banner-section .banner-img {
     height: 100vh;
     object-fit: cover;
-    position: relative;
+    position: relative
 }
 
-.banner-container {
-    position: relative;
+.amenities-section,
+.app_map_side,
+.banner-container,
+.floor-plan-section,
+.gallery-images-section .gal-image,
+.location-section,
+.master-plan,
+.overview_points_list li,
+.price-section,
+.visual-journey,
+div#master-and-floor-plan .container {
+    position: relative
 }
 
 .banner-section .carousel-inner::after {
     position: absolute;
-    left: 0px;
-    bottom: 0px;
+    left: 0;
+    bottom: 0;
     width: 100%;
     height: 60%;
     background: linear-gradient(rgba(0, 0, 0, 0), rgb(0 0 0 / 80%));
-    z-index: 1;
+    z-index: 1
 }
 
 .banner-content {
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 60px 0px;
+    padding: 60px 0;
     flex-direction: column;
     align-items: center;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 1;
+    z-index: 1
 }
 
 .banner-typology {
-    padding-bottom: 40px;
+    padding-bottom: 40px
 }
 
 .banner-content .banner-typology h3 {
-    color: rgb(255, 255, 255);
-    font-weight: 300;
-    letter-spacing: 4px;
-    font-size: 36px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.63);
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-    margin-top: 12px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-top: 12px
+}
+
+.banner-content .project_typology {
+    font-size: 20px;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: var(--dropkicker);
+    letter-spacing: 2px;
+    margin-bottom: 15%;
+    padding: 7px 22px;
+    border: 1px solid var(--green-color);
+    background-color: var(--green-color);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+}
+
+.banner_highlight {
+    border: 1px solid #fff;
+    width: 100%;
+    max-width: 353px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 5px 15px;
 }
 
 .banner-content .banner-typology h2 {
     text-align: center;
-    color: rgb(255, 255, 255);
-    font-weight: 300;
+    color: #fff;
     font-size: 26px;
-    letter-spacing: 3px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.63);
-    margin-bottom: 15px;
+    letter-spacing: 3px
 }
 
 .banner-content .banner-typology p {
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: #fff;
     letter-spacing: 1.5px;
     font-size: 15px;
     font-weight: 300;
-    margin: 0px;
+    margin: 0
 }
 
 .banner-content .banner-pricing {
     display: flex;
     justify-content: center;
-    align-items: center;
+    gap: 14px;
     width: 100%;
-    color: rgb(255, 255, 255);
-    padding-bottom: 70px;
+    color: #fff;
+    padding-bottom: 70px
+}
+
+.banner-content .payment-plan,
+.banner-content .status {
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    background: #097952;
+    border-radius: 50px;
+    font-weight: 300;
+    margin: 0
 }
 
 .banner-content .payment-plan {
-    background: rgb(9, 121, 82);
-    font-size: 12px;
-    border-radius: 50px;
-    letter-spacing: 2px;
-    font-weight: 300;
-    padding: 10px 20px;
-    margin: 0px;
-    min-width: 202px;
+    min-width: 202px
 }
 
 .banner-content .status {
-    background: rgb(9, 121, 82);
-    font-size: 12px;
-    border-radius: 50px;
-    letter-spacing: 2px;
-    font-weight: 300;
-    padding: 10px 20px;
-    margin: 0px;
     min-width: 200px;
-    text-align: center;
+    text-align: center
+}
+
+.about_us_1 .title-pera,
+.overview-left-view p {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 500
 }
 
 .banner-content .starting-price {
-    background: rgb(9, 121, 82);
+    background: #097952;
     padding: 7px 40px;
     letter-spacing: 3px;
     font-weight: 300;
     border-radius: 50px;
-    margin: 0px;
+    margin: 0;
     position: relative;
-    display: none;
+    display: none
 }
 
-.banner-content .starting-price span:nth-of-type(1) {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.22);
+.banner-content .starting-price span:first-of-type {
+    border-bottom: 1px solid rgba(255, 255, 255, .22);
     padding-bottom: 5px;
     margin-bottom: 7px;
-    display: block;
+    display: block
 }
 
 .side-call-btn {
@@ -630,38 +677,26 @@ a.navbar-call-btn:hover {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    z-index: 99;
+    z-index: 99
 }
 
 .side-call-btn a {
     background: var(--green-color);
     padding: 8px 9px;
-    border-radius: 150px;
+    border-radius: 150px
 }
 
 .side-call-btn a img {
     width: 22px;
-    filter: invert(1);
+    filter: invert(1)
 }
 
 .about_us_1 {
     position: relative;
     padding-top: 64px;
     padding-bottom: 64px;
-    overflow: hidden;
+    overflow: hidden
 }
-
-/* .about_us_1::after {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    top: 5%;
-    background: url(../images/bg/tree-vec3-1.png) right top no-repeat;
-    opacity: .07;
-    z-index: -1;
-    background-size: 500px;
-} */
 
 .about_us_1::before {
     position: absolute;
@@ -669,48 +704,38 @@ a.navbar-call-btn:hover {
     width: 100%;
     height: 100%;
     bottom: 74%;
-    background: url(../images/bg/tree-vec3-1.png) right bottom no-repeat;
-    /* background-repeat: repeat-x; */
+    background: url(../images/bg/tree-vec3-1.png) right bottom/40% no-repeat;
     opacity: .08;
     z-index: -1;
-    background-size: 500px;
     transform: rotate(41deg);
-    right: -21%;
-    background-size: 40%;
+    right: -21%
 }
 
-.about_us_1 .heading-section {
-    padding: 0 70px;
+.about_us_1 .heading-section,
+.highlight-section .tab-pane {
+    padding: 0 70px
 }
 
 .about_us_1 .title-pera {
-    font-size: 13px;
-    letter-spacing: 1px;
     line-height: 28px;
-    font-weight: 500;
     margin: 0;
-    padding-top: 19px;
+    padding-top: 19px
 }
 
 .about_us_1 .title-subhead {
-    font-size: 18px;
+    font-size: 18px
 }
 
 .overview_points_list {
     max-width: 1046px;
     margin: 0 auto;
     list-style: none;
-    padding: 0;
-    padding-top: 10px;
+    padding: 10px 0 0;
     gap: 0 110px;
     text-align: center;
     align-items: center;
     text-transform: capitalize;
-    color: var(--green-color);
-}
-
-.overview_points_list li {
-    position: relative;
+    color: var(--green-color)
 }
 
 .overview_points_list li::before {
@@ -720,69 +745,57 @@ a.navbar-call-btn:hover {
     width: 58px;
     height: 2px;
     background: #0979525c;
-    bottom: 50%;
-}
-
-.overview_points_list li:last-child::before {
-    display: none;
+    bottom: 50%
 }
 
 .overview_points_list .title {
     font-size: 18px;
-    padding-bottom: 8px;
+    padding-bottom: 8px
 }
 
 .overview_points_list .symbol {
-    font-size: 22px;
+    font-size: 22px
 }
 
 .overview_points_list .desc {
     font-size: 14px;
     letter-spacing: 1px;
-    color: #000;
+    color: #000
 }
 
 .animated_download_btn .btn_tag {
-    gap: 0 5px;
+    gap: 0 5px
 }
 
 .animated_download_btn .download {
     cursor: pointer;
     height: 20px;
     width: 20px;
-    overflow: visible;
+    overflow: visible
 }
 
 .animated_download_btn .arrow {
-    animation: bounce 1s both ease-out infinite;
+    animation: 1s ease-out infinite both bounce
 }
 
 @keyframes bounce {
-    0% {
-        transform: translateY(0)
-    }
 
-    25% {
-        transform: translateY(3px)
-    }
-
+    0%,
+    100%,
     50% {
         transform: translateY(0)
     }
 
+    25%,
     75% {
         transform: translateY(3px)
     }
-
-    100% {
-        transform: translateY(0)
-    }
 }
 
-
-.about-us {
+.about-us,
+.highlight-section {
     position: relative;
-    overflow: hidden;
+    overflow: hidden
 }
 
 .about-us::before {
@@ -791,60 +804,56 @@ a.navbar-call-btn:hover {
     width: 100%;
     height: 100%;
     bottom: 82%;
-    background: url(../images/bg/tree-vec3.png) left bottom no-repeat;
+    background: url(../images/bg/tree-vec3.png) left bottom/37% no-repeat;
     opacity: .08;
     z-index: -1;
     transform: rotate(315deg);
-    left: -29%;
-    background-size: 37%;
+    left: -32%
 }
 
 .overview-left-view {
-    padding: 0px 70px;
+    padding: 0 70px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100%;
+    height: 100%
 }
 
 .overview-left-view p {
-    font-size: 13px;
-    letter-spacing: 1px;
-    line-height: 32px;
-    font-weight: 500;
+    line-height: 32px
 }
 
 .overview-right-view {
-    padding: 0px;
-    position: relative;
+    padding: 0;
+    position: relative
 }
 
 .overview-right-view img {
-    border-radius: 10px;
+    border-radius: 10px
 }
 
 .overview-query-btn a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #fff;
     background: var(--green-color);
     padding: 12px 25px;
     font-size: 12px;
     letter-spacing: 2px;
-    font-weight: 600;
+    font-weight: 600
 }
 
-.overview-query-btn a:hover {
-    color: rgb(255, 255, 255);
+.floor-sec a:hover,
+.location-section .overview-query-btn a:hover,
+.mobile-section a:active,
+.mobile-section a:hover,
+.overview-query-btn a:hover,
+.price-query-btn a:hover {
+    color: #fff
 }
 
 .about-us .over-back-img {
     position: relative;
-    padding-bottom: 20px;
-}
-
-.highlight-section {
-    position: relative;
-    overflow: hidden;
+    padding-bottom: 20px
 }
 
 .highlight-section::before {
@@ -853,72 +862,84 @@ a.navbar-call-btn:hover {
     width: 100%;
     height: 100%;
     bottom: 74%;
-    background: url(../images/bg/tree-vec3-1.png) right bottom no-repeat;
+    background: url(../images/bg/tree-vec3-1.png) right bottom/40% no-repeat;
     opacity: .08;
     z-index: -1;
     transform: rotate(41deg);
-    right: -31%;
-    background-size: 40%;
+    right: -33%
 }
 
+.top-view-video .video-btn,
+button.amenity-view-btn {
+    background: var(--green-color);
+    font-family: var(--dropkicker)
+}
+
+.amenities-detail-section ul#pills-tab,
 .highlight-section ul#pills-tab {
     justify-content: center;
     padding: 40px;
-    gap: 150px;
+    gap: 150px
 }
 
 .highlight-section .nav-pills .nav-link {
-    color: rgb(0, 0, 0);
+    color: #000;
     font-family: Dropkicker;
     font-size: 14px;
     letter-spacing: 4px;
     font-weight: 300;
     padding: 10px 30px;
-    border-radius: 0px !important;
-    border: 1px solid rgb(0, 0, 0) !important;
+    border-radius: 0 !important;
+    border: 1px solid #000 !important
 }
 
+.amenities-detail-section .nav-pills .nav-link.active,
 .highlight-section .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-    color: rgb(255, 255, 255);
+    color: #fff;
     font-family: Dropkicker;
     font-size: 14px;
     letter-spacing: 4px;
     font-weight: 300;
     padding: 10px 30px;
     background-color: var(--green-color) !important;
-    border-radius: 0px !important;
-    border: 1px solid rgb(20, 105, 60) !important;
+    border-radius: 0 !important;
+    border: 1px solid #14693c !important
 }
 
-.highlight-section .tab-pane {
-    padding: 0px 70px;
+.top-view-video .video-btn::after,
+.top-view-video .video-btn::before {
+    width: 8px;
+    background-color: var(--green-color);
+    content: "";
+    height: 100%;
+    top: 0
 }
 
 .highlight-details {
     text-align: center;
-    padding: 25px 15px;
+    padding: 25px 15px
 }
 
 .highlight-details .high-icons img {
-    width: auto;
+    width: auto
 }
 
 .highlight-details .high-points {
-    padding-top: 27px;
+    padding-top: 27px
 }
 
 .highlight-details .high-points h4 {
     font-size: 16px;
     letter-spacing: 2px;
-    margin: 0px;
+    margin: 0
 }
 
 .highlight-details .high-points p {
     padding-top: 15px;
     font-size: 13px;
     letter-spacing: 1px;
-    line-height: 26px;
+    line-height: 26px
 }
 
 .specifications-details {
@@ -926,22 +947,22 @@ a.navbar-call-btn:hover {
     justify-content: start;
     align-items: center;
     gap: 15px;
-    padding: 15px 0px;
+    padding: 15px 0
 }
 
 .specifications-details p {
-    margin: 0px;
+    margin: 0;
     letter-spacing: 1px;
-    font-size: 14px;
+    font-size: 14px
 }
 
 .specifications-details img {
-    width: 16px;
+    width: 16px
 }
 
 .specifications-img {
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
 
 .top-view-video {
@@ -950,100 +971,67 @@ a.navbar-call-btn:hover {
     justify-content: center;
     align-items: center;
     gap: 35px;
-    padding: 80px 0px 0px;
+    padding: 80px 0 0
 }
 
 .top-view-video .video-head {
     color: var(--green-color);
     font-size: 26px;
-    letter-spacing: 2px;
+    letter-spacing: 2px
 }
 
 .top-view-video .video-btn {
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    background: var(--green-color);
+    color: #fff;
     padding: 12px 40px;
     letter-spacing: 2px;
-    font-family: var(--dropkicker);
-    position: relative;
+    position: relative
 }
 
 .top-view-video .video-btn::before {
     position: absolute;
-    content: "";
-    width: 8px;
-    height: 100%;
-    left: -15px;
-    top: 0px;
-    background-color: var(--green-color);
+    left: -15px
 }
 
 .top-view-video .video-btn::after {
     position: absolute;
-    content: "";
-    width: 8px;
-    height: 100%;
-    right: -15px;
-    top: 0px;
-    background-color: var(--green-color);
-}
-
-.amenities-section {
-    position: relative;
+    right: -15px
 }
 
 .amenities-section::before {
     position: absolute;
     content: "";
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     width: 100%;
     height: 100%;
-    background: url("../images/bg/02.png") left bottom 0px / 100% no-repeat;
-}
-
-.amenities-detail-section .tab-content {
-    height: 100%;
-}
-
-.amenities-detail-section .tab-content .tab-pane {
-    height: 100%;
+    background: url("../images/bg/02.png") left bottom 0/100% no-repeat
 }
 
 .amenities-detail-section .tab-content .tab-pane .amenity-detail-image {
     height: 100%;
-    position: relative;
+    position: relative
 }
 
 .amenities-detail-section .tab-content .tab-pane .amenity-detail-image .amnt-img-text {
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     right: 20px;
-    color: rgb(255, 255, 255);
-    font-size: 13px;
+    color: #fff;
+    font-size: 13px
 }
 
 .amenities-detail-section .tab-content .tab-pane .amenity-detail-image img {
     height: 100%;
     border-radius: 10px;
-    object-fit: cover;
+    object-fit: cover
 }
 
-.amenities-detail-section .nav-link .light-icon {
-    display: none;
-}
-
-.amenities-detail-section .nav-link .dark-icon {
-    display: block;
-}
-
-.amenities-detail-section .nav-link.active .light-icon {
-    display: block;
-}
-
-.amenities-detail-section .nav-link.active .dark-icon {
-    display: none;
+.amenities-detail-section .nav-link .dark-icon,
+.amenities-detail-section .nav-link.active .light-icon,
+.d-view,
+.header .navbar.fixed .project-logo.logo-dark {
+    display: block
 }
 
 .amenity-btn {
@@ -1051,92 +1039,87 @@ a.navbar-call-btn:hover {
     justify-content: center !important;
     align-items: center !important;
     flex-direction: column !important;
-    padding: 10px 5px !important;
+    padding: 10px 5px !important
 }
 
 .amenity-btn .dark-icon,
 .amenity-btn .light-icon {
-    width: 40px;
+    width: 40px
+}
+
+.floor-plan-section::before,
+.price-section::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: ""
 }
 
 .amenity-btn p {
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 1px;
-    margin: 0px;
-    padding: 8px 0px 3px;
+    margin: 0;
+    padding: 8px 0 3px
 }
 
 .amenities-detail-section {
     padding: 70px 30px 100px;
-    position: relative;
+    position: relative
 }
 
 .amemity-icons-details-section .nav-pills {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
-}
-
-.amenities-detail-section ul#pills-tab {
-    justify-content: center;
-    padding: 40px;
-    gap: 150px;
+    gap: 30px
 }
 
 .amenities-detail-section .nav-pills .nav-link {
-    color: rgb(0, 0, 0);
+    color: #000;
     font-family: Dropkicker;
     font-size: 14px;
     letter-spacing: 4px;
     font-weight: 300;
     padding: 10px 30px;
     min-width: 190px;
-    background: transparent;
+    background: 0 0;
     backdrop-filter: blur(5px);
-    border-radius: 0px !important;
-    border: 1px solid rgb(0, 0, 0) !important;
-}
-
-.amenities-detail-section .nav-pills .nav-link.active,
-.nav-pills .show>.nav-link {
-    color: rgb(255, 255, 255);
-    font-family: Dropkicker;
-    font-size: 14px;
-    letter-spacing: 4px;
-    font-weight: 300;
-    padding: 10px 30px;
-    background-color: var(--green-color) !important;
-    border-radius: 0px !important;
-    border: 1px solid rgb(20, 105, 60) !important;
+    border-radius: 0 !important;
+    border: 1px solid #000 !important
 }
 
 button.amenity-view-btn {
-    background: var(--green-color);
-    color: rgb(255, 255, 255);
+    color: #fff;
     padding: 11px 30px;
-    border: 0px;
+    border: 0;
     letter-spacing: 2px;
-    font-family: var(--dropkicker);
     font-weight: 300;
-    font-size: 14px;
+    font-size: 14px
+}
+
+.floor-sec a,
+.price-query-btn a {
+    font-weight: 600;
+    color: #fff;
+    background: var(--green-color);
+    text-decoration: none
 }
 
 div#pills-tabContent {
-    padding-top: 30px;
+    padding-top: 30px
 }
 
 .price-section-1 {
     padding-top: 70px;
     padding-bottom: 70px;
-    overflow: hidden;
+    overflow: hidden
 }
 
 .price-section-1 .pricebox_wrap {
     max-width: 900px;
     margin: 0 auto;
-    text-align: center;
+    text-align: center
 }
 
 .price-section-1 .pricebox {
@@ -1145,62 +1128,52 @@ div#pills-tabContent {
     align-items: center;
     gap: 25px;
     padding: 35px 22px;
-    border: 1px solid #e9e8de;
+    border: 1px solid #e9e8de
 }
 
 .price-section-1 .primeryText {
     display: block;
     font-weight: 500;
     margin-bottom: 8px;
-    font-size: 18px;
+    font-size: 18px
 }
 
 .price-section-1 .secText {
-    margin-bottom: 0;
+    margin-bottom: 0
 }
 
-/* .price-section-1 .price{ font-size: 20px;} */
 .price-section-1 .inrIcon {
-    font-size: 23px;
+    font-size: 23px
 }
 
 .price-section-1 .descText {
     letter-spacing: 1px;
-    padding-top: 8px;
+    padding-top: 8px
 }
 
 .price-section-1 .siteBtn {
     padding: 3px 16px;
-    border: 3px solid #96796e7d;
-}
-
-.price-section {
-    position: relative;
+    border: 3px solid #96796e7d
 }
 
 .price-section::before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
     bottom: 73%;
     left: -15%;
-    background: url(../images/bg/tree-vec3.png) left bottom no-repeat;
+    background: url(../images/bg/tree-vec3.png) left bottom/33% no-repeat;
     opacity: .08;
     z-index: -1;
-    background-size: 33%;
-    rotate: 328deg;
+    rotate: 328deg
 }
 
 .price-section .heading-section .title-subhead {
-    padding: 25px 10px 0px;
+    padding: 25px 10px 0
 }
 
 .pricing-box {
     margin-top: 50px;
     padding: 50px;
     text-align: center;
-    box-shadow: rgba(20, 105, 60, 0.18) 0px 5px 20px 0px;
+    box-shadow: rgba(20, 105, 60, .18) 0 5px 20px 0
 }
 
 .pricing-box .typology {
@@ -1210,109 +1183,89 @@ div#pills-tabContent {
     padding: 12px;
     text-align: center;
     font-weight: 400;
-    margin: 0px;
+    margin: 0
 }
 
 .pricing-box .starting-price {
-    padding: 35px 0px 12px;
+    padding: 35px 0 12px;
     letter-spacing: 2px;
-    font-weight: 300;
+    font-weight: 300
 }
 
 .pricing-box .price {
     font-size: 24px;
     letter-spacing: 3px;
     padding-bottom: 8px;
-    border-bottom: 1px solid rgba(193, 193, 193, 0.34);
-    margin: 0px;
+    border-bottom: 1px solid rgba(193, 193, 193, .34);
+    margin: 0
 }
 
 .pricing-box .size {
     display: flex;
     justify-content: space-between;
-    padding: 32px 0px;
+    padding: 32px 0
 }
 
 .pricing-box .size h5 {
     letter-spacing: 2px;
-    font-size: 18px;
+    font-size: 18px
 }
 
 .price-query-btn a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    background: var(--green-color);
     padding: 12px 25px;
     font-size: 13px;
     letter-spacing: 2px;
-    font-weight: 600;
-    display: block;
-}
-
-.price-query-btn a:hover {
-    color: rgb(255, 255, 255);
+    display: block
 }
 
 .floor-plan-section {
-    position: relative;
-    padding-top: 0;
+    padding-top: 0
 }
 
 .floor-plan-section::before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     background: url('../images/bg/bg-floor-plan.png');
     opacity: .4;
-    background-size: auto;
-    background-position: inherit;
+    background-position: inherit
+}
+
+.floor-sec .floor-plan,
+.master-plan h4 {
+    border-bottom: 1px solid rgba(193, 193, 193, .34);
+    width: fit-content;
+    padding-bottom: 6px;
+    text-align: center
 }
 
 .master-plan h4 {
-    text-align: center;
-    padding-top: 0px;
+    padding-top: 0;
     letter-spacing: 3px;
-    border-bottom: 1px solid rgba(193, 193, 193, 0.34);
-    width: fit-content;
-    margin: auto;
-    padding-bottom: 6px;
+    margin: auto
+}
+
+.floor-sec .floor-typo,
+.floor-sec a,
+.floor-view-btn.floor-sec h4 {
+    letter-spacing: 2px
 }
 
 .floor-sec .floor-typo {
     padding-top: 15px;
     text-align: center;
-    letter-spacing: 2px;
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 10px
 }
 
 .floor-sec .floor-plan {
-    text-align: center;
     padding-top: 40px;
     letter-spacing: 3px;
-    border-bottom: 1px solid rgba(193, 193, 193, 0.34);
-    width: fit-content;
-    margin: auto;
-    padding-bottom: 6px;
+    margin: auto
 }
 
 .floor-sec a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    background: var(--green-color);
     padding: 12px 22px;
-    font-size: 11px;
-    letter-spacing: 2px;
-    display: block;
-    width: fit-content;
-    font-weight: 600;
-}
-
-.floor-sec a:hover {
-    color: rgb(255, 255, 255);
+    font-size: 11px
 }
 
 .floor-view-btn.floor-sec {
@@ -1322,25 +1275,17 @@ div#pills-tabContent {
     flex-direction: column;
     justify-content: center;
     gap: 10px;
-    padding-left: 50px;
+    padding-left: 50px
 }
 
-.floor-view-btn.floor-sec h4 {
-    letter-spacing: 2px;
-}
-
-.owl-theme .owl-nav [class*="owl-"]:hover {
+.owl-theme .owl-nav [class*=owl-]:hover {
     color: transparent;
     text-decoration: none;
-    background: none !important;
-}
-
-.master-plan {
-    position: relative;
+    background: 0 0 !important
 }
 
 .master-plan-img {
-    padding: 50px;
+    padding: 50px
 }
 
 .master-plan-img .img-details {
@@ -1351,17 +1296,17 @@ div#pills-tabContent {
     justify-content: center;
     height: 100%;
     padding: 20px 40px;
-    border-radius: 10px;
+    border-radius: 10px
 }
 
 .master-plan-img .img-details .head-name h4 {
     letter-spacing: 2px;
-    padding-bottom: 10px;
+    padding-bottom: 10px
 }
 
 .img-specs {
     display: flex;
-    gap: 15px;
+    gap: 15px
 }
 
 .img-specs span {
@@ -1370,31 +1315,27 @@ div#pills-tabContent {
     font-size: 13px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center
 }
 
 .img-specs .number {
     width: 26px;
     height: 26px;
     border-radius: 50%;
-    background: rgb(127, 97, 47);
+    background: #7f612f;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 11px;
-    color: rgb(255, 255, 255);
-    letter-spacing: 0.5px;
+    color: #fff;
+    letter-spacing: .5px
 }
 
 .points-details {
     display: flex;
     flex-direction: column;
     gap: 6px;
-    align-items: baseline;
-}
-
-.visual-journey {
-    position: relative;
+    align-items: baseline
 }
 
 .visual-journey::before {
@@ -1403,42 +1344,37 @@ div#pills-tabContent {
     width: 24%;
     height: 40%;
     right: 8%;
-    top: 0px;
-    /* background: url("../images/leaf-background-image.png") 0% 0% / 310px no-repeat; */
-    transform: scaleX(-1);
+    top: 0;
+    transform: scaleX(-1)
 }
 
 .gallery-images-section {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
-    padding-top: 70px;
+    padding-top: 70px
 }
 
 .gallery-images-section .gal-image {
-    width: 24%;
+    width: 24%
 }
 
 .gallery-images-section .gal-image img {
     height: auto;
     width: 100%;
-    object-fit: cover;
+    object-fit: cover
 }
 
 .location_adv_1 {
     padding-top: 70px;
     padding-bottom: 0;
     position: relative;
-    overflow: hidden;
-}
-
-.app_map_side {
-    position: relative;
+    overflow: hidden
 }
 
 .app_map_side iframe {
     height: 85vh;
-    width: 100%;
+    width: 100%
 }
 
 .location_adv_points {
@@ -1448,7 +1384,7 @@ div#pills-tabContent {
     right: 0;
     margin: 0 auto;
     display: flex;
-    justify-content: end;
+    justify-content: end
 }
 
 .location_adv_points_in {
@@ -1457,87 +1393,71 @@ div#pills-tabContent {
     backdrop-filter: blur(4px);
     border-radius: 2px;
     padding: 15px 0;
-    box-shadow: 0px 1px 3px rgb(203 202 189);
+    box-shadow: 0 1px 3px rgb(203 202 189)
 }
 
 .location_adv_points .box {
     padding: 10px 30px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #ddd
 }
 
 .location_adv_points .box:last-child {
-    border: 0;
+    border: 0
 }
 
 .location_adv_points .text {
     color: var(--green-color);
-    padding-bottom: 6px;
+    padding-bottom: 6px
 }
-
-/* .location_adv_points .btn_intrested {
-    border: 2px solid var(--green-color);
-    color: var(--green-color);
-    background: transparent;
-    padding: 8px;
-    width: 70%;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: 24px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 600;
-    font-family: var(--dropkicker);
-    transform: all 0.4s ease;
-} */
 
 .location_adv_points .btn_intrested:hover {
     background: var(--green-color);
-    color: #fff;
+    color: #fff
 }
 
 .location_adv_1 .location-map {
-    display: flex;
+    display: flex
 }
 
 .location_adv_1 .map_link {
     display: block;
     width: 65%;
-    margin: 0 auto;
+    margin: 0 auto
 }
 
 .location_adv_1 .map_link img {
     height: 100%;
-    object-fit: cover;
-}
-
-.location_adv_1 .flexpoints {
-    width: 30%;
+    object-fit: cover
 }
 
 .location_adv_1 .headings-div {
     margin-bottom: 25px;
     display: grid;
     justify-content: center;
-    text-align: center;
+    text-align: center
 }
 
 .location_adv_1 .flexpoints {
+    width: 30%;
     background: var(--white);
     padding-left: 40px;
     gap: 15px;
-    justify-content: center;
+    justify-content: center
 }
 
 .location_adv_1 .listp {
     gap: 15px;
     padding: 14px 0;
     list-style: none;
-    border-bottom: 1px solid #c3c3c38a;
+    border-bottom: 1px solid #c3c3c38a
+}
+.location_adv_1 .text{
+    font-weight: 600;
+    margin-bottom: 0;
 }
 
 .location_adv_1 .listp:last-child {
-    border-bottom: 0;
+    border-bottom: 0
 }
 
 .location_adv_1 .l_icon {
@@ -1551,55 +1471,32 @@ div#pills-tabContent {
     justify-content: center;
     align-items: center;
     margin-bottom: 8px;
-    /* display: none; */
-    color: #fff;
-
-    img {
-        width: 50%;
-    }
+    color: #fff
 }
 
-.location_adv_1 .text {
-    font-size: 16px;
-    font-weight: 600;
-    margin-bottom: 0;
+.location-section::before,
+.location_adv_1::before {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    content: ""
 }
 
 .location_adv_1 .time {
     font-size: 13px;
-    color: #5e5e5e;
+    color: #5e5e5e
 }
 
 .location_adv_1::before {
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    background: url("../images/bg/bgmap.png") center top no-repeat;
+    background: url("../images/bg/bgmap.png") center top/100% no-repeat;
     z-index: -1;
-    opacity: 0.1;
-    background-size: 100%;
-}
-
-.location-section {
-    position: relative;
+    opacity: .1
 }
 
 .location-section::before {
-    position: absolute;
-    content: "";
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    background: url("../images/bg/02.png") left bottom -20px / 100% no-repeat;
-}
-
-.map-image {
-    padding: 50px 0px;
-    position: relative;
+    background: url("../images/bg/02.png") left bottom -20px/100% no-repeat
 }
 
 .map-image .location-video {
@@ -1609,10 +1506,10 @@ div#pills-tabContent {
     z-index: 99;
     background: var(--green-color);
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #fff;
     font-size: 14px;
     letter-spacing: 1px;
-    padding: 10px 25px;
+    padding: 10px 25px
 }
 
 .location-details {
@@ -1623,7 +1520,7 @@ div#pills-tabContent {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center
 }
 
 .location-points {
@@ -1633,7 +1530,7 @@ div#pills-tabContent {
     align-items: center;
     margin-bottom: 40px;
     padding-bottom: 10px;
-    border-bottom: 1px solid rgba(225, 225, 225, 0.72);
+    border-bottom: 1px solid rgba(225, 225, 225, .72)
 }
 
 .location-points .location-icon {
@@ -1645,64 +1542,51 @@ div#pills-tabContent {
     width: 68px;
     height: 54px;
     min-width: 64px;
-    border-radius: 5px;
+    border-radius: 5px
 }
 
 .location-points .location-icon img {
-    width: 34px;
+    width: 34px
 }
 
 .location-points .location-icon p {
-    margin: 0px;
+    margin: 0;
     font-size: 12px;
-    color: rgb(255, 255, 255);
-    text-align: center;
+    color: #fff;
+    text-align: center
 }
 
 .location-points p {
-    margin: 0px;
+    margin: 0;
     font-size: 14px;
     letter-spacing: 1px;
     width: 79%;
-    font-weight: 500;
-}
-
-.location-section .overview-query-btn {
-    text-align: center;
+    font-weight: 500
 }
 
 .location-section .overview-query-btn a {
-    margin-left: 0px;
-}
-
-.location-section .overview-query-btn a:hover {
-    color: rgb(255, 255, 255);
+    margin-left: 0
 }
 
 .overview-query-btn {
     display: block;
     text-align: start;
-    margin-top: 49px;
-}
-
-.location-section .map-image img {
-    width: 100%;
+    margin-top: 49px
 }
 
 .about-builder-content {
-    padding: 30px 50px 20px 0px;
+    padding: 30px 50px 20px 0;
     letter-spacing: 1px;
     font-size: 14px;
-    line-height: 32px;
+    line-height: 32px
 }
 
 .builder-projects-details {
     position: relative;
-    width: 58%;
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 .builder-projects-details::before {
@@ -1711,9 +1595,9 @@ div#pills-tabContent {
     width: 100%;
     height: 1px;
     top: 50%;
-    left: 0%;
+    left: 0;
     transform: translateY(-50%);
-    background: rgb(94, 94, 94);
+    background: #5e5e5e
 }
 
 .builder-projects-details::after {
@@ -1721,131 +1605,125 @@ div#pills-tabContent {
     content: "";
     width: 1px;
     height: 100%;
-    top: 0%;
+    top: 0;
     left: 50%;
     transform: translateX(-50%);
-    background: rgb(94, 94, 94);
+    background: #5e5e5e
 }
 
 .builder-projects-details p {
     letter-spacing: 2px;
     font-family: var(--dropkicker);
     font-size: 17px;
-    color: rgb(39, 39, 39);
-    margin: 0px;
+    color: #272727;
+    margin: 0;
+    position: relative
+}
+
+.rera-section a,
+.rera-section p {
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+    font-size: 13px
 }
 
 .builder-projects-details p span {
     font-size: 21px;
-    color: var(--green-color);
+    color: var(--green-color)
 }
 
 .about-builder .heading-section .title-head {
-    text-align: left;
+    text-align: left
 }
 
 .abt-builder-sec {
-    padding: 0px 50px 50px;
-    position: relative;
+    padding: 0 50px 50px;
+    position: relative
 }
-
-/* .abt-builder-sec::before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    bottom: 80%;
-    left: -21%;
-    background: url(../images/bg/tree-vec3.png) left bottom no-repeat;
-    opacity: .08;
-    z-index: -1;
-    background-size: 35%;
-    rotate: 325deg;
-} */
 
 .footer-form {
     padding: 50px;
     margin-right: 50px;
     margin-top: 30px;
-    background: rgb(248, 246, 231);
+    background: #f8f6e7
 }
 
 .about-builder .form-control {
-    border-radius: 0px;
+    border-radius: 0;
     margin-bottom: 20px;
     padding: 11px 14px;
-    border: 1px solid rgb(113, 113, 113) !important;
-    background-color: transparent !important;
+    border: 1px solid #717171 !important;
+    background-color: transparent !important
+}
+
+.popup-section .submit_btn,
+.submit_btn {
+    border: 1px solid;
+    text-transform: uppercase;
+    font-family: var(--montserrat);
+    color: #fff !important
 }
 
 .about-builder .form-control::placeholder {
     letter-spacing: 1px;
     font-family: var(--montserrat);
-    font-size: 14px;
+    font-size: 14px
 }
 
 .about-builder .form-control:focus {
-    box-shadow: none !important;
+    box-shadow: none !important
 }
 
 .submit_btn {
-    border: 1px solid;
     width: 100%;
     letter-spacing: 2px;
-    text-transform: uppercase;
-    font-family: var(--montserrat);
     font-size: 15px;
-    border-radius: 0px !important;
+    border-radius: 0 !important;
     padding: 10px !important;
-    color: rgb(255, 255, 255) !important;
-    background: var(--green-color) !important;
+    background: var(--green-color) !important
+}
+
+.footer,
+h4.button-btn-mobile {
+    background: var(--green-color)
 }
 
 .footer {
     position: relative;
+    text-align: center;
+    padding-top: 30px
 }
 
 .footer::before {
     position: absolute;
     content: "";
-    left: 60%;
-    top: 9%;
-    width: 33%;
-    height: 85%;
-    /* background: url("../images/leaf-vector.png") 0% 0% / 320px no-repeat; */
-    opacity: 0.1;
-}
-
-.footer {
-    background: var(--green-color);
-    text-align: center;
+    opacity: .1
 }
 
 .footer .project-light-logo img {
     width: 160px;
-    padding: 30px 0px;
-    filter: invert(1) brightness(100);
+    padding: 30px 0;
+    filter: invert(1) brightness(100)
 }
 
 .rera-section p {
-    margin: 0px;
-    color: rgb(255, 255, 255);
-    font-size: 13px;
-    letter-spacing: 1.5px;
-    font-weight: 300;
+    margin: 0
 }
 
-.rera-section a {
-    color: rgb(255, 255, 255);
-    font-size: 13px;
-    letter-spacing: 1.5px;
-    font-weight: 300;
+.disclaimer p,
+.media-partner-gtf p {
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 12px
 }
 
-.rera-section a:hover,
-.rera-section a:focus {
-    color: rgb(255, 255, 255);
-    box-shadow: none;
+.media-partner-gtf p a:focus,
+.media-partner-gtf p a:hover,
+.rera-section a:focus,
+.rera-section a:hover {
+    color: #fff;
+    box-shadow: none
 }
 
 .rera-section {
@@ -1854,43 +1732,31 @@ div#pills-tabContent {
     align-items: center;
     flex-direction: column;
     gap: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 25px
 }
 
 .disclaimer p {
-    font-size: 12px;
-    color: rgb(255, 255, 255);
-    letter-spacing: 1px;
     font-weight: 300;
     line-height: 22px;
-    margin-bottom: 25px;
+    margin-bottom: 25px
 }
 
 .media-partner-gtf p {
-    margin: 0px;
-    padding-bottom: 30px;
-    color: rgb(255, 255, 255);
-    letter-spacing: 1px;
-    font-size: 12px;
+    margin: 0;
+    padding-bottom: 30px
 }
 
 .media-partner-gtf p a {
-    color: rgb(255, 255, 255);
+    color: #fff;
     font-weight: 300;
     letter-spacing: 1.5px;
-    font-size: 12px;
-}
-
-.media-partner-gtf p a:hover,
-.media-partner-gtf p a:focus {
-    color: rgb(255, 255, 255);
-    box-shadow: none;
+    font-size: 12px
 }
 
 .popup-section .modal-content {
-    background: rgb(253, 252, 238);
+    background: #fdfcee;
     z-index: 1;
-    overflow: hidden;
+    overflow: hidden
 }
 
 .popup-section .modal-content::before {
@@ -1899,39 +1765,34 @@ div#pills-tabContent {
     width: 100%;
     height: 100%;
     bottom: 18%;
-    background: url(../images/bg/tree-vec3-1.png) right bottom no-repeat;
+    background: url(../images/bg/tree-vec3-1.png) right bottom/97% no-repeat;
     opacity: .04;
     z-index: -1;
     transform: rotate(31deg);
-    right: -29%;
-    background-size: 97%;
+    right: -29%
 }
 
 .popup-section .form_section button.btn-close {
     position: absolute;
     right: 20px;
-    top: 15px;
+    top: 15px
 }
 
 .popup-section .modal-dialog .popup_image img {
     width: 100%;
     max-width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover
 }
 
 .popup-section .modal-dialog.modal-dialog-centered {
-    max-width: 1000px;
+    max-width: 1000px
 }
 
 .popup-section .modal-dialog .bg_logo {
     width: 230px;
     height: 230px;
-    top: 32%;
-}
-
-.popup-section .modal-dialog .menu_logo {
-    text-align: center;
+    top: 32%
 }
 
 .popup-section .popup_image {
@@ -1940,37 +1801,37 @@ div#pills-tabContent {
     justify-content: center;
     align-items: center;
     height: 100%;
-    position: relative;
+    position: relative
 }
 
 .popup-section .popup_image::before {
     position: absolute;
     content: "";
-    bottom: 0px;
-    left: 0px;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    height: 43%;
+    height: 43%
 }
 
 .popup-section .popup_image::after {
     position: absolute;
     content: "";
-    bottom: 0px;
-    right: 0px;
+    bottom: 0;
+    right: 0;
     width: 46%;
     height: 45%;
     background-size: 200px;
-    opacity: 0.2;
+    opacity: .2
 }
 
 .popup-image-details {
     position: absolute;
-    bottom: 0px;
-    color: rgb(255, 255, 255);
+    bottom: 0;
+    color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
 
 .popup-image-details .popup-typology p {
@@ -1979,31 +1840,31 @@ div#pills-tabContent {
     font-family: var(--dropkicker);
     font-weight: 300;
     padding-bottom: 12px;
-    margin: 0px;
+    margin: 0
 }
 
 .popup-pricing span {
     font-size: 12px;
     letter-spacing: 2px;
     font-family: Montserrat;
-    font-weight: 300;
+    font-weight: 300
 }
 
 .popup-pricing p {
     font-size: 30px;
     letter-spacing: 5px;
     font-family: var(--dropkicker);
-    font-weight: 300;
+    font-weight: 300
 }
 
 .popup-pricing {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center
 }
 
 .popup-section .popup-form {
-    padding: 20px 30px;
+    padding: 20px 30px
 }
 
 .popup-section .form_section .form-control {
@@ -2011,36 +1872,32 @@ div#pills-tabContent {
     border-right: none;
     border-left: none;
     border-image: initial;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.34);
+    border-bottom: 1px solid rgba(0, 0, 0, .34);
     padding: 15px 5px;
     margin-bottom: 10px;
-    border-radius: 0px;
+    border-radius: 0;
     background-color: transparent;
     font-family: var(--primary-font);
     font-size: 14px;
     font-weight: 400;
     line-height: 15.58px;
-    letter-spacing: 0.2em;
+    letter-spacing: .2em
 }
 
 .popup-section .form_section .form-control::placeholder {
     font-family: var(--montserrat);
     font-size: 13px;
-    letter-spacing: 1px;
+    letter-spacing: 1px
 }
 
 .popup-section .submit_btn {
-    border: 1px solid;
     width: 100%;
     letter-spacing: 2px;
-    text-transform: uppercase;
-    font-family: var(--montserrat);
     font-size: 13px;
     margin-top: 10px;
-    border-radius: 0px !important;
+    border-radius: 0 !important;
     padding: 12px !important;
-    color: rgb(255, 255, 255) !important;
-    background: var(--green-color) !important;
+    background: var(--green-color) !important
 }
 
 .popup-section button.btn-close {
@@ -2051,124 +1908,73 @@ div#pills-tabContent {
     border: 1px solid;
     border-radius: 50%;
     padding: 10px;
-    font-size: 10px;
+    font-size: 10px
 }
 
 .popup-project-logo img {
     margin: auto;
     display: block;
     width: 140px;
-    padding-bottom: 30px;
-}
-
-.mobile-section {
-    display: none;
-}
-
-.m-view {
-    display: none;
-}
-
-.d-view {
-    display: block;
+    padding-bottom: 30px
 }
 
 .banner-mobile {
-    /* min-height: 70vh; */
-    object-fit: cover;
+    object-fit: cover
 }
 
 .checkbox-section {
-    color: rgba(85, 85, 85, 0.88);
+    color: rgba(85, 85, 85, .88);
     font-size: 8px;
     gap: 5px;
     margin-top: 13px;
-    letter-spacing: 0.5px;
+    letter-spacing: .5px
 }
 
 .video-section .modal-body {
-    padding: 40px;
+    padding: 40px
 }
 
+.banner-content .starting-price::after,
+.banner-content .starting-price::before,
+.popup-section.video-section .modal-content::after,
 .popup-section.video-section .modal-content::before {
-    content: unset;
-}
-
-.popup-section.video-section .modal-content::after {
-    content: unset;
+    content: unset
 }
 
 .header .project-logo.logo-light {
     display: block;
     filter: brightness(10.9);
-    width: 120px;
-}
-
-.header .navbar.fixed .project-logo.logo-light {
-    display: none;
-}
-
-.header .project-logo.logo-dark {
-    display: none;
-}
-
-.header .navbar.fixed .project-logo.logo-dark {
-    display: block;
-}
-
-.mobile-section a:active {
-    color: rgb(255, 255, 255);
-}
-
-.mobile-section a:hover {
-    color: rgb(255, 255, 255);
-}
-
-.footer {
-    padding-top: 30px;
-}
-
-.gallery-images-section .gal-image {
-    position: relative;
+    width: 120px
 }
 
 .gallery-images-section .gal-image span.img-tagline {
     position: absolute;
     bottom: 8px;
     left: 10px;
-    color: rgb(255, 255, 255);
-    font-size: 12px;
+    color: #fff;
+    font-size: 13px;
     font-family: Montserrat;
+    font-weight: 600
 }
 
 .overview-right-view p.amnt-img-text {
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     right: 90px;
-    color: rgb(255, 255, 255);
+    color: #fff;
     font-size: 13px;
+    font-weight: 600;
+    left: 25px
 }
 
+.builder-projects-details,
 .gallery-images-section {
-    justify-content: center;
+    justify-content: center
 }
 
+.floorplan-row .carousel-inner,
 nav.navbar.fixed .project-logo {
-    margin-top: 0px;
-}
-
-.builder-projects-details {
-    justify-content: center;
-    width: 100%;
-}
-
-.builder-projects-details::before,
-.builder-projects-details::after {
-    display: none;
-}
-
-.builder-projects-details p {
-    position: relative;
+    margin-top: 0
 }
 
 .builder-projects-details p::after {
@@ -2178,93 +1984,69 @@ nav.navbar.fixed .project-logo {
     right: -25px;
     width: 1px;
     height: 47px;
-    background-color: rgb(0, 0, 0);
-}
-
-.builder-projects-details p:nth-child(4)::after {
-    display: none;
+    background-color: #000
 }
 
 div#about-builder .about-builder-content {
-    /* margin-bottom: 40px; */
-    padding: 0;
+    padding: 0
 }
 
 .banner-call-section.rera-number {
     border: unset;
     background-color: unset;
-    color: rgb(255, 255, 255);
+    color: #fff
 }
 
 p.rera-p {
     font-size: 12px;
-    margin-bottom: 0px;
-    letter-spacing: 1px;
+    margin-bottom: 0;
+    letter-spacing: 1px
 }
 
 .navbar.fixed .banner-call-section.rera-number {
     border: none;
-}
-
-.navbar.fixed .banner-call-section.rera-number {
-    color: rgb(0, 0, 0);
-}
-
-div#master-and-floor-plan .container {
-    position: relative;
+    color: #000
 }
 
 .floorplan-row {
-    margin-top: 150px !important;
+    margin-top: 150px !important
 }
 
 .floorplan-row ul.nav.nav-tabs {
     flex-wrap: wrap;
     width: inherit;
     margin-left: 20%;
-    background-color: rgb(9, 121, 82);
-    color: rgb(255, 255, 255);
-    border-radius: 0px;
+    background-color: #097952;
+    color: #fff;
+    border-radius: 0
 }
 
 .floorplan-row ul.nav.nav-tabs li {
     width: 100%;
-    background-color: var(--green-color);
-}
-
-.floorplan-row a.nav-link {
-    color: rgb(255, 255, 255);
-}
-
-.floorplan-row a.nav-link {
-    color: rgb(255, 255, 255) !important;
+    background-color: var(--green-color)
 }
 
 .floorplan-row a.nav-link.active {
-    color: rgb(0, 0, 0) !important;
+    color: #000 !important;
     border: none !important;
-    border-radius: 0px !important;
+    border-radius: 0 !important
 }
 
 .floorplan-row a.nav-link {
-    border: none !important;
-}
-
-#exampleLightbox .carousel-item img {
-    width: 100%;
+    color: #fff !important;
+    border: none !important
 }
 
 #exampleLightbox .modal-content {
-    background-color: rgb(253, 252, 238);
+    background-color: #fdfcee
 }
 
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
     background-color: var(--green-color);
     border-radius: 14%;
-    padding: 17px;
     width: 26px !important;
-    height: 32px !important;
+    height: 32px !important
 }
 
 #exampleLightbox button.btn-close {
@@ -2277,310 +2059,236 @@ div#master-and-floor-plan .container {
     padding: 10px;
     font-size: 10px;
     opacity: 1;
-    filter: invert(1);
+    filter: invert(1)
 }
 
-p.rera-p.mobile_rera {
-    display: none;
-}
-
-body.mobile-open p.rera-p.mobile_rera {
-    display: none;
-}
-
-button.carousel-control-prev,
-button.carousel-control-next {
-    opacity: 1 !important;
-}
-
-.project_logo {
-    text-align: center;
-}
-
-.project_logo img.img-fluid {
-    max-width: 150px;
-}
-
-.master-plan img {
-    filter: blur(4px);
+button.carousel-control-next,
+button.carousel-control-prev {
+    opacity: 1 !important
 }
 
 .btn-slider {
     display: flex;
     justify-content: space-between;
-    position: absolute;
-    top: -5%;
-    left: 45%;
-    right: inherit;
-    max-width: fit-content;
-}
-
-.btn-slider .carousel-control-prev,
-.btn-slider .carousel-control-next {
-    position: relative;
-    margin-right: 25px;
-    color: rgb(166, 116, 68);
-    opacity: 1;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    font-size: 20px;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    width: 10px;
-    outline: none;
-    border: none;
-    border-radius: unset;
-    background-size: 100% 100%;
-    background-position: center center;
-    position: unset;
-}
-
-.floor-sec {
-    text-align: center;
+    right: inherit
 }
 
 .floor-sec img.img-fluid {
     max-width: 500px;
-    width: 100%;
-}
-
-.floor-view-btn {
-    text-align: center;
-}
-
-
-.floor-sec a {
-    display: inline-block;
-}
-
-.floorplan-row .carousel-inner {
-    margin-top: 35px;
+    width: 100%
 }
 
 div#exampleLightbox1 button.btn-close {
     right: 0;
-    position: absolute;
+    position: absolute
 }
 
-
-@media (min-width: 768px) {
+@media (min-width:768px) {
     #exampleLightbox1 .modal-dialog.modal-xl.modal-dialog-centered {
-        max-width: 600px;
+        max-width: 600px
     }
 
     #exampleLightbox1 .modal-content {
-        background-color: #fdfcee;
+        background-color: #fdfcee
     }
 
     #exampleLightbox1 .carousel-item img.img-fluid.mh-100 {
-        max-width: 100%;
-        /* width: 100%; */
+        max-width: 100%
     }
 
     .carousel-caption h5 {
-        font-size: 20px !important;
+        font-size: 20px !important
     }
 }
 
-@media (max-width: 1600px) {
+@media (max-width:1600px) {
     .p-80 {
-        padding: 50px 0px 40px;
+        padding: 50px 0 40px
     }
 
     .mobile-open .mobile-trigger {
         cursor: pointer;
-        right: 15px;
+        right: 15px
     }
 
     .banner-content .banner-pricing {
-        padding-bottom: 30px;
+        padding-bottom: 30px
     }
 
     .banner-typology {
-        padding-bottom: 25px;
-    }
-
-    .about-us::before {
+        padding-bottom: 25px
     }
 
     .overview-right-view img {
         width: 90%;
-        border-radius: 10px;
+        border-radius: 10px
     }
 
     .heading-section .title-head {
-        font-size: 22px;
+        font-size: 22px
     }
 
     .heading-section .title-subhead {
         line-height: 32px;
         padding-top: 15px;
-        font-size: 16px;
+        font-size: 16px
     }
 
     .about-us .over-back-img {
-        padding-bottom: 0px;
+        padding-bottom: 0
     }
 
     .amenities-section::before {
         background-size: cover;
-        background-position: right center;
+        background-position: right center
     }
-
 
     .floor-plan-section::before {
         background-size: auto;
-        background-position: inherit;
+        background-position: inherit
     }
 
     .master-plan img {
-        width: 83%;
+        width: 83%
     }
 
     .master-plan-img {
-        padding: 0px 50px;
+        padding: 0 50px
     }
 
     .location-section::before {
         background-size: cover;
-        background-position: right 0px bottom -10px;
+        background-position: right 0 bottom -10px
     }
 
     .location-points p {
         font-size: 13px;
-        letter-spacing: 0.6px;
+        letter-spacing: .6px
     }
 
     .location-points {
-        margin-bottom: 30px;
+        margin-bottom: 30px
     }
 
     .header .project-logo {
         width: 150px;
-        margin-top: 15px;
+        margin-top: 15px
     }
 
     .navbar.fixed .project-logo {
-        width: 120px;
+        width: 120px
     }
 
     .header nav.navbar {
-        min-height: 85px;
+        min-height: 85px
     }
 
     .banner-content .starting-price {
         letter-spacing: 2.5px;
-        font-size: 16px;
+        font-size: 16px
     }
 
     .menu_section {
-        max-width: 440px;
+        max-width: 440px
     }
 
     .menu_logo img {
         width: 160px;
-        padding: 10px;
+        padding: 10px
     }
 
     .menu_section ul li {
-        padding: 12px 0px 10px;
+        padding: 12px 0 10px
     }
 
     .menu_section ul li a {
         font-size: 12px;
-        letter-spacing: 1.5px;
+        letter-spacing: 1.5px
     }
 
     .amenities-detail-section {
-        padding: 50px 30px 80px;
+        padding: 50px 30px 80px
     }
 
     .gallery-images-section {
-        padding-top: 30px;
+        padding-top: 30px
     }
 
     .location-section .map-image img {
-        width: 90%;
+        width: 90%
     }
 
     .location_adv_1 .l_icon {
         height: 33px;
         width: 33px;
         min-width: 33px;
-        min-height: 33px;
+        min-height: 33px
     }
 
     .footer .project-light-logo img {
         width: 160px;
-        filter: invert(1) brightness(100);
+        filter: invert(1) brightness(100)
     }
 }
 
-@media (max-width: 1367px) {
+@media (max-width:1367px) {
     .menu_section ul {
-        padding-top: 25px;
+        padding-top: 25px
     }
 
     .menu_section ul li {
-        padding: 10px 0px;
+        padding: 10px 0
     }
 
     .menu_section ul li a {
-        font-size: 12px;
+        font-size: 12px
     }
 
     .banner-content .starting-price::before {
         left: -185px;
-        width: 185px;
+        width: 185px
     }
 
     .banner-content .starting-price::after {
         right: -185px;
-        width: 185px;
+        width: 185px
     }
 
     .overview-left-view {
-        padding: 0px 50px;
+        padding: 0 50px
     }
 
     .pricing-box .price {
-        font-size: 22px;
+        font-size: 22px
     }
 
     .pricing-box .size h5 {
-        font-size: 16px;
+        font-size: 16px
     }
 
     .menu_section .menu_in {
-        padding-top: 30px;
+        padding-top: 30px
     }
 
     .mobile-open .closemenu {
-        top: 30px;
+        top: 30px
     }
 
     .header .project-logo {
         width: 190px;
-        margin-top: 15px;
+        margin-top: 15px
     }
 }
 
-p.rera-p-mobile {
-    display: none;
-}
-
-@media (max-width: 768px) {
+@media (max-width:768px) {
     .banner-section .container-fluid.banner-container {
-        padding: 0 !important;
+        padding: 0 !important
     }
 
     .banner-section .banner_abs_div {
-        bottom: 35%;
+        bottom: 5%;
         right: 15px;
-        font-size: 14px;
+        font-size: 14px
     }
 
     .about_us_1::before {
@@ -2588,20 +2296,31 @@ p.rera-p-mobile {
         content: "";
         width: 100%;
         height: 100%;
-        left: 0px;
-        top: 0px;
+        left: 0;
+        top: 0
     }
 
     .about_us_1 {
-        padding-top: 25px;
+        padding-top: 25px
+    }
+
+    .about-us::before,
+    .overview_points_list li::before {
+        display: none
+    }
+
+    .location_adv_1 .flexpoints,
+    .location_adv_1 .map_link,
+    .overview-right-view img {
+        width: 100%
     }
 
     .about_us_1 .heading-section {
-        padding: 0;
+        padding: 0
     }
 
     .overview_points_list {
-        flex-wrap: wrap;
+        flex-wrap: wrap
     }
 
     .overview_points_list li {
@@ -2609,58 +2328,48 @@ p.rera-p-mobile {
         border: 1px solid #ddd;
         padding: 6px;
         margin-bottom: 10px;
-        border-radius: 2px;
+        border-radius: 2px
     }
 
-    .overview_points_list .desc {
-        margin-bottom: 0;
-    }
-
-    .overview_points_list li::before {
-        display: none;
+    .overview_points_list .desc,
+    .price-section-1 .primeryText {
+        margin-bottom: 0
     }
 
     .about_us_1 .overview-query-btn {
-        margin-top: 30px;
+        margin-top: 30px
     }
 
-
-
     .location_adv_1 {
-        padding-top: 30px;
+        padding-top: 30px
     }
 
     .location_adv_1 .location-map {
         flex-wrap: wrap;
-        flex-direction: column-reverse;
-    }
-
-    .location_adv_1 .map_link,
-    .location_adv_1 .flexpoints {
-        width: 100%;
+        flex-direction: column-reverse
     }
 
     .location_adv_1 .flexpoints {
-        padding-left: 0;
+        padding-left: 0
     }
 
     .location_adv_1 .listp {
-        padding-left: 15px;
+        padding-left: 15px
     }
 
     .floorplan-row ul.nav.nav-tabs {
         background-color: transparent;
-        margin-left: 0px;
+        margin-left: 0
     }
 
     .floorplan-row {
-        margin-top: 40px !important;
+        margin-top: 40px !important
     }
 
     .price-section-1 .pricebox {
         flex-wrap: wrap;
         padding: 0;
-        gap: 0;
+        gap: 0
     }
 
     .price-section-1 .pricebox .flexbox {
@@ -2669,219 +2378,220 @@ p.rera-p-mobile {
         align-items: center;
         justify-content: center;
         border-bottom: 1px solid #ddd;
-        padding: 10px 15px;
+        padding: 10px 15px
     }
 
     .price-query-btn {
-        margin: 6px auto;
-    }
-
-    .price-section-1 .primeryText {
-        margin-bottom: 0;
+        margin: 6px auto
     }
 
     p.rera-p-mobile {
         position: absolute;
         bottom: -7px;
-        color: rgb(255, 255, 255);
+        color: #fff;
         width: 100%;
         text-align: center;
         font-size: 12px;
         letter-spacing: 1px;
         font-family: Montserrat;
-        display: block;
+        display: block
     }
 }
 
-h4.button-btn-mobile {
-    display: none;
-}
+@media screen and (max-width:575px) {
 
-@media screen and (max-width: 575px) {
+    .banner-content .payment-plan,
+    .banner-content .status {
+        background: #097952;
+        font-weight: 400;
+        border: 1px solid #097952;
+        color: #fff
+    }
+
+    .banner-content .banner-typology h2,
+    .banner-content .banner-typology h3 {
+        font-size: 18px;
+        line-height: 27px;
+        border-bottom: 1px solid rgba(0, 0, 0, .15)
+    }
+
     .p-80 {
-        padding: 20px 0px;
+        padding: 20px 0
+    }
+
+    .banner-typology,
+    div#about-builder,
+    div#about-us,
+    div#amenities,
+    div#location-advantages,
+    div#master-and-floor-plan,
+    div#price {
+        padding-bottom: 0
     }
 
     .m-view {
-        display: block;
+        display: block
     }
 
-    .d-view {
-        display: none;
+    .about-us .over-back-img::before,
+    .abt-builder-sec::before,
+    .banner-section .carousel-inner::after,
+    .d-view,
+    .header a.banner-query-btn,
+    .highlight-section::before,
+    .overview-query-btn img {
+        display: none
     }
 
     .menu_section .menu_in {
         padding: 20px 55px 20px 50px;
-        position: relative;
-    }
-
-    .header a.banner-query-btn {
-        display: none;
-    }
-
-    .header .project-logo {
-        width: 100px;
+        position: relative
     }
 
     .header nav.navbar {
         padding: 10px 8px;
+        min-height: auto
     }
 
     .banner-content .banner-typology h3 {
         letter-spacing: 3px;
-        font-size: 18px;
         color: var(--green-color);
         font-weight: 400;
         text-align: center;
-        padding: 6px 0px;
-        line-height: 27px;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
-        margin-bottom: 6px;
+        padding: 6px 0;
+        margin-bottom: 6px
+    }
+
+    .banner-content .project_typology {
+        margin-bottom: 5%;
+        padding: 6px 23px;
+        font-size: 17px;
     }
 
     .banner-content .banner-pricing {
-        display: none;
-        padding: 0px;
+        flex-wrap: wrap;
+        padding: 0;
+        gap: 0;
     }
 
-    .banner-content .starting-price {
-        letter-spacing: 0.5px;
+    .banner_highlight {
+        color: #000;
+        border: 0;
+        border-bottom: 1px solid;
+        border-radius: 0;
+        border-color: #d4d4d4;
     }
 
     .banner-content .banner-pricing p {
         margin-bottom: 10px;
-        text-align: center;
+        text-align: center
     }
 
     .banner-typology {
-        padding-bottom: 0px;
-        padding-top: 7px;
-    }
-
-    .banner-section .carousel-inner::after {
-        display: none;
+        padding-top: 7px
     }
 
     .banner-section .banner-img {
-        height: 60vh;
+        height: 60vh
     }
 
     .banner-content {
-        position: relative;
+        position: relative
     }
 
     .banner-content .payment-plan {
-        background: rgb(9, 121, 82);
         font-size: 12px;
-        padding: 12px 20px;
-        border: 1px solid rgb(9, 121, 82);
-        color: rgb(255, 255, 255);
-        font-weight: 400;
+        padding: 12px 20px
     }
 
     .banner-content .starting-price {
-        background: rgb(9, 121, 82);
-        padding: 15px 0px;
+        letter-spacing: .5px;
+        background: #097952;
+        padding: 15px 0;
         font-weight: 400;
         font-size: 14px;
-        letter-spacing: 2px;
+        letter-spacing: 2px
     }
 
     .banner-content .status {
-        background: rgb(9, 121, 82);
         font-size: 12px;
-        font-weight: 400;
-        padding: 10px 20px;
-        color: rgb(255, 255, 255);
-        border: 1px solid rgb(9, 121, 82);
+        padding: 10px 20px
     }
 
     .banner-content .banner-typology h2 {
-        color: rgb(0, 0, 0);
+        color: #000;
         font-weight: 500;
-        font-size: 18px;
-        line-height: 27px;
         padding-bottom: 6px;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
-        margin-bottom: 0px;
+        margin-bottom: 0;
         letter-spacing: 2px;
-        margin-top: 10px;
+        margin-top: 10px
     }
 
     .banner-content .banner-typology p {
         text-align: center;
-        color: rgb(0, 0, 0);
-        letter-spacing: 0.4px;
+        color: #000;
+        letter-spacing: .4px;
         font-size: 13px;
-        font-weight: 400;
+        font-weight: 400
     }
 
     .amenities-detail-section .tab-content .tab-pane .amenity-detail-image {
         height: 100%;
-        padding-top: 35px;
+        padding-top: 35px
     }
 
     .master-plan-img {
-        padding: 0px 30px;
+        padding: 0 30px
     }
 
     .side-call-btn {
         right: 20px;
         gap: 8px;
-        display: none;
+        display: none
     }
 
     .heading-section .title-subhead {
         width: 90%;
-        letter-spacing: 0.5px;
+        letter-spacing: .5px;
         padding-top: 5px;
         font-size: 16px;
-        line-height: 30px;
+        line-height: 30px
     }
 
+    .map-image,
     .pt-50 {
-        padding-top: 20px;
+        padding-top: 20px
     }
 
     .overview-left-view {
-        padding: 0px 15px;
-    }
-
-    .overview-left-view p {
-        text-align: center;
+        padding: 0 15px
     }
 
     .overview-left-view p {
         line-height: 30px;
-        text-align: center;
-    }
-
-    .about-us .over-back-img::before {
-        display: none;
+        text-align: center
     }
 
     .pricing-box .price {
         font-size: 22px;
-        letter-spacing: 1px;
+        letter-spacing: 1px
     }
 
     div#about-us {
-        padding-top: 45px;
-        padding-bottom: 0px;
+        padding-top: 45px
     }
 
     .heading-section .title-head {
         letter-spacing: 2px;
-    }
-
-    .overview-query-btn img {
-        display: none;
+        line-height: 32px;
+        letter-spacing: 1px;
+        margin-bottom: 10px
     }
 
     .overview-query-btn {
         text-align: center;
         z-index: 99;
-        margin-top: 9px;
+        margin-top: 9px
     }
 
     .overview-query-btn a {
@@ -2889,241 +2599,205 @@ h4.button-btn-mobile {
         justify-content: center;
         width: fit-content;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: auto
     }
 
     .overview-right-view {
-        padding: 0px 5px;
+        padding: 0 5px;
         margin-top: 5px;
-        margin-bottom: 20px;
+        margin-bottom: 20px
     }
 
     .about-us .over-back-img::after {
         right: 1%;
         bottom: -10%;
         width: 65%;
-        height: 25%;
+        height: 25%
     }
 
     #order-second {
-        order: 1;
+        order: 1
     }
 
     #order-first {
-        order: 2;
+        order: 2
     }
 
     .p-100 {
-        padding: 40px 0px 10px;
-    }
-
-    .heading-section .title-head {
-        line-height: 32px;
-        letter-spacing: 1px;
-        margin-bottom: 10px;
+        padding: 40px 0 10px
     }
 
     .highlight-section ul#pills-tab {
         padding: 25px;
-        gap: 20px;
+        gap: 20px
     }
 
     .highlight-section .nav-pills .nav-link.active,
     .nav-pills .show>.nav-link {
         padding: 9px 28px;
-        font-size: 12px;
+        font-size: 12px
     }
 
     .highlight-section .nav-pills .nav-link {
         font-size: 12px;
         letter-spacing: 3px;
-        padding: 9px 28px;
+        padding: 9px 28px
     }
 
     .highlight-section .tab-pane {
-        padding: 0px 5px;
+        padding: 0 5px
     }
 
-    .highlight-details {
-        padding: 10px;
+    .highlight-details,
+    .video-section .modal-body {
+        padding: 10px
     }
 
     .highlight-section::after {
-        right: 0%;
+        right: 0;
         top: 22%;
         width: 25%;
         height: 10%;
         background-size: 100px;
-        opacity: 0.5;
-    }
-
-    .highlight-section::before {
-        display: none;
+        opacity: .5
     }
 
     .top-view-video .video-head {
         text-align: center;
         font-size: 20px;
-        letter-spacing: 1px;
+        letter-spacing: 1px
     }
 
     .top-view-video {
-        padding: 18px 0px 0px;
+        padding: 18px 0 0
     }
 
     .amenities-detail-section {
-        padding: 28px 5px 0px;
+        padding: 28px 5px 0
     }
 
     .amemity-icons-details-section .nav-pills {
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 10px
     }
 
     .amenities-detail-section .nav-pills .nav-link {
-        min-width: 100%;
+        min-width: 100%
     }
 
     .amemity-icons-details-section .nav-pills li {
         width: 48%;
-        margin-bottom: 0px;
+        margin-bottom: 0
     }
 
     .amenity-btn p {
-        letter-spacing: 0px;
+        letter-spacing: 0
     }
 
     .amenity-btn {
-        padding: 10px 0px !important;
+        padding: 10px 0 !important
     }
 
+    .about-builder .heading-section .title-head,
     .amemity-icons-details-section {
-        text-align: center;
+        text-align: center
     }
 
     button.amenity-view-btn.m-view {
         width: 80%;
-        margin: 30px auto 0px;
-    }
-
-    div#amenities {
-        padding-bottom: 0px;
+        margin: 30px auto 0
     }
 
     .price-section .heading-section .title-subhead {
-        padding: 0px 10px;
-    }
-
-    div#price {
-        padding-bottom: 0px;
+        padding: 0 10px
     }
 
     .price-section::before {
         right: 4%;
         top: 28px;
-        background-size: 110px;
+        background-size: 110px
     }
 
     .pricing-box {
         padding: 25px;
-        margin-top: 0px;
-    }
-
-    div#master-and-floor-plan {
-        padding-bottom: 0px;
+        margin-top: 0
     }
 
     .floor-plan-section::before {
-        left: 0px;
-        top: 0px;
+        left: 0;
+        top: 0;
         background-size: cover;
-        background-position: center bottom;
+        background-position: center bottom
     }
 
     .row.pt-70 {
-        padding-top: 25px;
+        padding-top: 25px
     }
 
     .master-plan {
-        padding: 15px;
+        padding: 15px
     }
 
     .master-plan h4 {
-        padding-bottom: 25px;
+        padding-bottom: 25px
     }
 
     .floor-sec .floor-plan {
         padding-bottom: 25px;
         letter-spacing: 2px;
-        font-size: 18px;
+        font-size: 18px
     }
 
     div#visual-journey {
-        padding-top: 0px;
-        padding-bottom: 0px;
+        padding-top: 0;
+        padding-bottom: 0
     }
 
     .visual-journey::before {
-        content: unset;
-    }
-
-    .gallery-images-section {
-        padding-top: 25px;
+        content: unset
     }
 
     .gallery-images-section {
         padding: 10px;
-        flex-wrap: wrap;
+        flex-wrap: wrap
     }
 
     .gallery-images-section .gal-image {
-        width: 48%;
-    }
-
-    .abt-builder-sec::before {
-        display: none;
+        width: 48%
     }
 
     .location-section::before {
         background-size: cover;
         top: unset;
-        left: 0%;
-    }
-
-    div#location-advantages {
-        padding-bottom: 0px;
-    }
-
-    .map-image {
-        padding-top: 20px;
+        left: 0
     }
 
     .location-details {
         padding-left: 20px;
-        padding-right: 20px;
+        padding-right: 20px
     }
 
     .location-points p {
-        letter-spacing: 0.5px;
-        font-size: 12px;
+        letter-spacing: .5px;
+        font-size: 12px
     }
 
     .location-points .location-icon {
         width: 58px;
         height: 50px;
-        min-width: 60px;
+        min-width: 60px
     }
 
     .location-points .location-icon img {
-        width: 26px;
+        width: 26px
     }
 
     .location-points .location-icon p {
-        font-size: 11px;
+        font-size: 11px
     }
 
     .location-points {
-        margin-bottom: 10px;
+        margin-bottom: 10px
     }
 
     .map-image .location-video {
@@ -3131,194 +2805,171 @@ h4.button-btn-mobile {
         right: 50%;
         transform: translateX(50%);
         width: max-content;
-        font-size: 12px;
+        font-size: 12px
     }
 
-    div#about-builder {
-        padding-bottom: 0px;
-    }
-
-    .about-builder-content {
-        padding: 0px;
+    .about-builder-content,
+    .popup-section .popup-form {
+        padding: 0
     }
 
     .abt-builder-sec {
-        padding: 0px 20px 25px;
+        padding: 0 20px 25px
     }
 
     .about-builder-content p {
         text-align: justify;
         line-height: 24px;
-        font-size: 13px;
+        font-size: 13px
     }
 
+    .popup-pricing span,
     .submit_btn {
-        font-size: 13px;
+        font-size: 13px
     }
 
     .builder-projects-details {
         width: 100%;
-        gap: 35px;
+        gap: 35px
     }
 
     .builder-projects-details p {
         letter-spacing: 1px;
-        font-size: 14px;
+        font-size: 14px
     }
 
     .builder-projects-details p span {
-        font-size: 18px;
-    }
-
-    .about-builder .heading-section .title-head {
-        text-align: center;
+        font-size: 18px
     }
 
     .about-builder .form-control::placeholder {
-        font-size: 12px;
+        font-size: 12px
     }
 
     .footer-form {
-        margin-right: 0px;
-        padding: 25px;
+        margin-right: 0;
+        padding: 25px
     }
 
     .about-builder .form-control {
         margin-bottom: 15px;
-        padding: 10px;
+        padding: 10px
     }
 
     .footer .project-light-logo img {
         width: 110px;
-        padding: 25px 0px;
+        padding: 25px 0
     }
 
     .disclaimer {
-        padding: 0px 15px;
-        text-align: justify;
-    }
-
-    .popup-section .popup-form {
-        padding: 0px;
+        padding: 0 15px;
+        text-align: justify
     }
 
     .popup-section .popup_image::after {
         width: 46%;
         height: 45%;
-        background-size: 130px;
+        background-size: 130px
     }
 
     .container,
     .container-fluid {
-        padding: 12px !important;
+        padding: 12px !important
     }
 
     .specifications-details {
         gap: 12px;
-        padding: 10px 0px;
+        padding: 10px 0
     }
 
     .specifications-details p {
-        font-size: 12px;
+        font-size: 12px
     }
 
     .specifications-details img {
-        width: 14px;
+        width: 14px
     }
 
     .location-section .overview-query-btn a {
-        margin-left: 0px;
+        margin-left: 0
     }
 
     .navbar.fixed .container {
-        padding: 0px !important;
+        padding: 0 !important
     }
 
     .floor-view-btn {
-        margin-top: 0px;
-        margin-bottom: 40px;
+        margin-top: 0;
+        margin-bottom: 40px
     }
 
     .floor-view-btn.floor-sec {
-        /* justify-content: flex-start; */
-        padding-left: 0px;
-        align-items: center;
+        padding-left: 0;
+        align-items: center
     }
 
     .popup-project-logo {
         position: relative;
-        top: 0px;
+        top: 0
     }
 
     .popup-project-logo img {
         margin: auto;
         display: block;
-        width: 120px;
+        width: 120px
     }
 
     .popup-section button.btn-close {
         right: 12px;
         top: 12px;
-        opacity: 1;
-    }
-
-    .popup-pricing span {
-        font-size: 13px;
+        opacity: 1
     }
 
     .popup-image-details .popup-typology p {
-        font-size: 31px;
+        font-size: 31px
     }
 
     .popup-section .form_section .form-control {
-        padding: 10px 5px;
-    }
-
-    .video-section .modal-body {
-        padding: 10px;
+        padding: 10px 5px
     }
 
     .popup-section.video-section button.btn-close {
         filter: invert(1);
         right: -3px;
-        top: -39px;
+        top: -39px
     }
 
     .mobile-section {
         display: none;
         position: fixed;
-        bottom: 0px;
+        bottom: 0;
         left: 50%;
         transform: translateX(-50%);
         z-index: 1000;
         background: var(--green-color);
         padding: 10px;
-        box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px;
+        box-shadow: rgba(0, 0, 0, .2) 0 2px 5px;
         width: 100%;
-        border-radius: 0px;
+        border-radius: 0
     }
 
     .mobile-section.show {
-        display: flex;
+        display: flex
     }
 
     .mobile-section a {
-        color: rgb(255, 255, 255);
+        color: #fff;
         text-decoration: none;
         text-align: center;
         width: 32%;
         display: inline-block;
         font-size: 13px;
         flex: 1 1 0%;
-        font-weight: 600;
+        font-weight: 600
     }
 
     .mobile-section a:not(:last-child) {
-        border-right: 1px solid;
-    }
-
-    .header nav.navbar {
-        min-height: auto;
+        border-right: 1px solid
     }
 
     .header .project-logo {
@@ -3327,217 +2978,143 @@ h4.button-btn-mobile {
         left: unset;
         top: unset;
         transform: unset;
-        margin-top: -21px;
+        margin-top: -21px
     }
 
     .header .project-logo.logo-light {
-        width: 110px;
+        width: 110px
     }
 
     .navbar.fixed .project-logo {
         width: 115px;
-        margin-top: -10px !important;
-
-        & nav.navbar.fixed .project-logo {
-            margin-top: -19px;
-        }
+        margin-top: -10px !important
     }
+}
 
-    .banner-call-section {
-        display: none;
-    }
+h4.button-btn-mobile,
+p.rera-p.mobile_rera {
+    font-size: 11px;
+    font-weight: 600;
+    color: #fff
+}
 
-    .builder-projects-details {
-        width: 100%;
-        margin-bottom: 30px;
-    }
+.builder-projects-details {
+    width: 100%;
+    margin-bottom: 30px
+}
 
-    .builder-projects-details p {
-        width: 40%;
-    }
+.builder-projects-details p {
+    width: 40%
+}
 
-    .footer::before {
-        left: 16%;
-        top: 45%;
-        width: 73%;
-        height: 45%;
-        background-size: 240px;
-        opacity: 0.2;
-    }
+.footer::before {
+    left: 16%;
+    top: 45%;
+    width: 73%;
+    height: 45%;
+    background-size: 240px;
+    opacity: .2
+}
 
-    .banner-content .starting-price::before {
-        content: unset;
-    }
+.map-image {
+    padding: 14px 0 0;
+    position: relative
+}
 
-    .banner-content .starting-price::after {
-        content: unset;
-    }
+p.rera-p.mobile_rera {
+    margin-top: 6px;
+    display: block
+}
 
-    .overview-right-view img {
-        width: 100%;
-    }
+span.mobile-trigger-in {
+    width: 100%;
+    text-align: end
+}
 
-    .map-image {
-        padding: 14px 0px 0px;
-        position: relative;
-    }
+.mobile-trigger {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: end
+}
 
-    .location-section .map-image img {
-        width: 100%;
-    }
+.floor-sec a {
+    text-align: center;
+    width: auto;
+    display: inline-block
+}
 
-    .carousel-control-next-icon,
-    .carousel-control-prev-icon {
-        padding: 9px;
-    }
+.btn-slider {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: -9%;
+    left: 36%;
+    right: inherit;
+    max-width: fit-content
+}
 
-    p.rera-p.mobile_rera {
-        font-size: 11px;
-        margin-top: 6px;
-        display: block;
-        color: rgb(255, 255, 255);
-        font-weight: 600;
-    }
+.btn-slider .carousel-control-next,
+.btn-slider .carousel-control-prev {
+    position: relative;
+    margin-right: 25px;
+    color: #a67444;
+    opacity: 1;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px
+}
 
-    span.mobile-trigger-in {
-        width: 100%;
-        text-align: end;
-    }
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    padding: 9px;
+    outline: 0;
+    border: none;
+    border-radius: unset;
+    background-size: 100% 100%;
+    background-position: center center;
+    position: unset
+}
 
-    .mobile-trigger {
-        width: 100%;
-        display: flex;
-        justify-content: end;
-        flex-direction: column;
-        align-items: end;
-    }
+.project_logo img.img-fluid {
+    max-width: 134px
+}
 
-    p.rera-p-mobile {
-        display: none;
-    }
+.project_logo {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: -61px
+}
 
-    nav.navbar.fixed {}
+.master-plan img {
+    filter: blur(4px)
+}
 
-    nav.navbar.fixed p.rera-p.mobile_rera {
-        color: rgb(0, 0, 0);
-    }
+h4.button-btn-mobile {
+    text-decoration: none;
+    padding: 12px 22px;
+    letter-spacing: 2px;
+    width: fit-content;
+    display: block
+}
 
-    .overview-right-view p.amnt-img-text {
-        left: 25px;
-    }
+h3.mobile_typo {
+    position: absolute;
+    top: 33%;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: Montserrat
+}
 
-    .nav-tabs .nav-link {
-        text-align: center;
-    }
+.builder-projects-details p:nth-child(2)::after {
+    content: none
+}
 
-    .floor-sec a {
-        text-align: center;
-        width: auto;
-        display: inline-block;
-    }
-
-    .floor-sec {
-        text-align: center;
-    }
-
-    .btn-slider {
-        display: flex;
-        justify-content: space-between;
-        position: absolute;
-        top: -9%;
-        left: 36%;
-        right: inherit;
-        max-width: fit-content;
-    }
-
-    .btn-slider .carousel-control-prev,
-    .btn-slider .carousel-control-next {
-        position: relative;
-        margin-right: 25px;
-        color: rgb(166, 116, 68);
-        opacity: 1;
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        font-size: 20px;
-    }
-
-    .carousel-control-prev-icon,
-    .carousel-control-next-icon {
-        width: 10px;
-        outline: none;
-        border: none;
-        border-radius: unset;
-        background-size: 100% 100%;
-        background-position: center center;
-        position: unset;
-    }
-
-    .project_logo img.img-fluid {
-        max-width: 134px;
-    }
-
-    .project_logo {
-        text-align: center;
-        margin-bottom: 0px;
-        margin-top: -61px;
-    }
-
-    .master-plan img {
-        filter: blur(4px);
-    }
-
-    h4.button-btn-mobile {
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-        background: var(--green-color);
-        padding: 12px 22px;
-        font-size: 11px;
-        letter-spacing: 2px;
-        width: fit-content;
-        font-weight: 600;
-        display: block;
-    }
-
-    .floor-plan-section {
-        position: relative;
-    }
-
-    /* .floor-plan-section::after {
-        content: "";
-        position: absolute;
-        bottom: 50%;
-        left: 0px;
-        width: 100%;
-        height: 19px;
-        background-color: rgb(253, 252, 238);
-        z-index: 9;
-    } */
-
-    /* .floor-view-btn.floor-sec {
-        display: none;
-    } */
-
-    h3.mobile_typo {
-        position: absolute;
-        top: 33%;
-        color: rgb(255, 255, 255);
-        width: 100%;
-        text-align: center;
-        font-size: 18px;
-        letter-spacing: 1px;
-        font-family: Montserrat;
-    }
-
-    .builder-projects-details p:nth-child(2)::after {
-        content: none;
-    }
-
-    .container.banner-content {
-        padding-bottom: 0px !important;
-    }
-
-    .floorplan-row .carousel-inner {
-        margin-top: 0;
-    }
+.container.banner-content {
+    padding-bottom: 0 !important
 }
