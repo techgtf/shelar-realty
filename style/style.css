@@ -502,10 +502,10 @@ a.navbar-call-btn {
 .banner-section .banner_abs_div {
     position: absolute;
     bottom: 10px;
-    right: 30px;
+    right: 15px;
     z-index: 1;
     color: #fff;
-    font-size: 20px;
+    font-size: 13px;
     text-transform: capitalize;
     letter-spacing: 1px
 }
@@ -570,11 +570,11 @@ div#master-and-floor-plan .container {
 }
 
 .banner-content .project_typology {
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-bottom: 15%;
+    margin-bottom: 8%;
     padding: 9px 25px;
     border: 1px solid #097952;
     /* background-color: #09795263; */
@@ -589,7 +589,7 @@ div#master-and-floor-plan .container {
 .banner_highlight {
     border: 1px solid rgba(255, 255, 255, .63);
     width: 100%;
-    max-width: 353px;
+    max-width: 383px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -599,6 +599,27 @@ div#master-and-floor-plan .container {
     letter-spacing: 1px;
     padding: 5px 15px;
 }
+
+.banner_highlight strong {
+    display: contents;
+    color: #fdfcee;
+    font-size: 121%;
+    /* animation: fadeEff 2s infinite alternate-reverse; */
+}
+
+/* @keyframes fadeEff {
+    0% {
+        color: #fff;
+    }
+
+    50% {
+        color: #14693c;
+    }
+
+    100% {
+        color: #fff;
+    }
+} */
 
 .banner-content .banner-typology h2 {
     text-align: center;
@@ -616,6 +637,11 @@ div#master-and-floor-plan .container {
     margin: 0;
     border-bottom: 1px solid rgba(255, 255, 255, .63);
     padding-bottom: 12px;
+}
+
+.banner-content .banner-typology .bold {
+    font-size: 119%;
+    font-weight: 600;
 }
 
 .banner-content .banner-pricing {
@@ -1454,7 +1480,8 @@ div#pills-tabContent {
     list-style: none;
     border-bottom: 1px solid #c3c3c38a
 }
-.location_adv_1 .text{
+
+.location_adv_1 .text {
     font-weight: 600;
     margin-bottom: 0;
 }
@@ -1489,7 +1516,8 @@ div#pills-tabContent {
 
 .location_adv_1 .time {
     font-size: 13px;
-    color: #5e5e5e
+    color: #5e5e5e;
+    /* font-family: inherit; */
 }
 
 .location_adv_1::before {
@@ -1574,7 +1602,7 @@ div#pills-tabContent {
 .overview-query-btn {
     display: block;
     text-align: start;
-    margin-top: 49px
+    margin-top: 25px;
 }
 
 .about-builder-content {
@@ -1634,6 +1662,70 @@ div#pills-tabContent {
 .builder-projects-details p span {
     font-size: 21px;
     color: var(--green-color)
+}
+
+.offer_section {
+    color: #fff;
+    text-align: center;
+    background: url(../images/banner/banner-1.webp) center center no-repeat;
+}
+
+.offer_section .container {
+    max-width: 734px;
+}
+.offer_section .heading-section{
+    margin-bottom: 20px;
+}
+.offer_section .heading-section .title-head {
+    font-size: 20px;
+    line-height: 33px;
+    letter-spacing: 2px;
+}
+
+
+.offer_section .checkbox-section {
+    color: #fff;
+    font-size: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.offer_overlay_div {
+    background: #0000004f;
+    padding: 37px 0;
+}
+
+.offer_form_div {
+    gap: 20px 0;
+}
+
+.offer_form_div .form-control {
+    background: transparent;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 0;
+}
+
+.form-control:focus {
+    background-color: transparent !important;
+    border-color: inherit;
+    box-shadow: unset !important;
+}
+
+.offer_form_div .form-control::placeholder,
+.offer_form_div .form-control:focus {
+    color: #fff;
+
+}
+
+.offer_section .btn_div {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.offer_section .btn_div .submit_btn{
+    /* background: transparent !important; */
+    /* backdrop-filter: blur(7px); */
 }
 
 .about-builder .heading-section .title-head {
@@ -1698,11 +1790,11 @@ h4.button-btn-mobile {
     padding-top: 30px
 }
 
-.footer::before {
+/* .footer::before {
     position: absolute;
     content: "";
     opacity: .1
-}
+} */
 
 .footer .project-light-logo img {
     width: 160px;
@@ -1957,7 +2049,8 @@ h4.button-btn-mobile {
     color: #fff;
     font-size: 13px;
     font-family: Montserrat;
-    font-weight: 600
+    font-weight: 600;
+    text-transform: capitalize;
 }
 
 .overview-right-view p.amnt-img-text {
@@ -1967,7 +2060,8 @@ h4.button-btn-mobile {
     color: #fff;
     font-size: 13px;
     font-weight: 600;
-    left: 25px
+    left: 25px;
+    text-transform: capitalize;
 }
 
 .builder-projects-details,
@@ -2289,9 +2383,9 @@ div#exampleLightbox1 button.btn-close {
     }
 
     .banner-section .banner_abs_div {
-        bottom: 5%;
-        right: 15px;
-        font-size: 14px
+        bottom: 1%;
+        right: 5px;
+        font-size: 10px;
     }
 
     .about_us_1::before {
@@ -2483,6 +2577,9 @@ div#exampleLightbox1 button.btn-close {
         border-bottom: 1px solid;
         border-radius: 0;
         border-color: #d4d4d4;
+    }
+    .banner_highlight strong{
+        color: #393939;
     }
 
     .banner-content .banner-pricing p {
@@ -3011,14 +3108,14 @@ p.rera-p.mobile_rera {
     width: 40%
 }
 
-.footer::before {
+/* .footer::before {
     left: 16%;
     top: 45%;
     width: 73%;
     height: 45%;
     background-size: 240px;
     opacity: .2
-}
+} */
 
 .map-image {
     padding: 14px 0 0;
